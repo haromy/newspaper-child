@@ -268,6 +268,17 @@ class geotimes_custom {
         td_api_header_style::delete('12');
         td_api_header_style::delete('13');
 
+        //unregister single template yang tidak diperlukan
+        td_api_single_template::delete('single_template_3');
+        td_api_single_template::delete('single_template_4');
+        td_api_single_template::delete('single_template_5');
+        td_api_single_template::delete('single_template_6');
+        td_api_single_template::delete('single_template_7');
+        td_api_single_template::delete('single_template_8');
+        td_api_single_template::delete('single_template_9');
+        td_api_single_template::delete('single_template_12');
+        td_api_single_template::delete('single_template_13');
+
         // hapus block yang tidak diperlukan
         td_api_single_template::delete('td_footer_template_14');
 
