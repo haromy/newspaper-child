@@ -205,13 +205,39 @@ class td_module_card extends td_module {
         $buffy .= '</div>';
         return $buffy;
     }
+
+    function get_date_geotimes($show_stars_on_review = true) {
+        $visibility_class = '';
+        if (td_util::get_option('tds_m_show_date') == 'hide') {
+            $visibility_class = ' td-visibility-hidden';
+        }
+
+        $buffy = '';
+        if ($this->is_review and $show_stars_on_review === true) {
+            //if review show stars
+            $buffy .= '<div class="entry-review-stars">';
+            $buffy .=  td_review::render_stars($this->td_review);
+            $buffy .= '</div>';
+
+        } else {
+            if (td_util::get_option('tds_m_show_date') != 'hide') {
+                $td_article_date_unix = get_the_time('U', $this->post->ID);
+                $buffy .= '<span class="td-post-date">';
+                    //$buffy .= '<time class="entry-date updated td-module-date' . $visibility_class . '" datetime="' . date(DATE_W3C, $td_article_date_unix) . '" >' . get_the_time(get_option('date_format'), $this->post->ID) . '</time>';
+                    $buffy .= '<time class="entry-date updated td-module-date' . $visibility_class . '" datetime="' . date(DATE_W3C, $td_article_date_unix) . '" >─ ' .human_time_diff( $td_article_date_unix, current_time( 'timestamp' ) ).' lalu</time>';
+                $buffy .= '</span>';
+            }
+        }
+
+        return $buffy;
+    }
     
     function __construct($post) {
         //run the parrent constructor
         parent::__construct($post);
     }
 
-    function render($argumen) {
+    function render($argumen,$tanggal) {
         ob_start();
         ?>
         <div class="<?php echo $this->get_module_classes();?> card">
@@ -228,6 +254,12 @@ class td_module_card extends td_module {
             </div>
             <div class="card-footer">
                 <?php echo $this->get_author_geotimes();?>
+                <?php
+                    
+                    if ($tanggal == 'show') {
+                        echo $this->get_date_geotimes();
+                    }
+                ?>
             </div>
         </div>
 

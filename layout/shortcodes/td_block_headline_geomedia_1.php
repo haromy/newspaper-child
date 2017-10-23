@@ -47,35 +47,35 @@ class td_block_headline_geomedia_1 extends td_block {
                     $td_module_card = new td_module_card($post);
                     if($post_count==1) {
                         $buffy.='<div class="col-lg-6 kiri">';
-                        $buffy .= $td_module_card->render('show');
+                        $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
                     if($post_count==2) {
                         $buffy.='<div class="col-lg-6 kanan">';
                         $buffy .='<div class="row">';
                         $buffy .='<div class="col-4 atas1">';
-                        $buffy .= $td_module_card->render('show');
+                        $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
                     if($post_count==3) {
                         $buffy.='<div class="col-4 atas2">';
-                        $buffy .= $td_module_card->render('show');
+                        $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
                     if($post_count==4) {
                         $buffy.='<div class="col-4 atas3">';
-                        $buffy .= $td_module_card->render('show');
+                        $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div></div>';
                     }
                     if($post_count==5) {
                         $buffy.='<div class="row"><div class="col-md-6 bawahkiri">';
-                        $buffy .= $td_module_card->render('show');
+                        $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
                     if($post_count>6) {
                         $buffy.='<div class="col-md-6 bawahkanan">';
                         for($i==0;$i<3;$i++){
-                            $buffy .= $td_module_card->render('hide');
+                            $buffy .= $td_module_card->render('hide','hide');
                         }
                         $buffy.='</div></div>';
                         break;

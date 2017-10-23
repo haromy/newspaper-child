@@ -418,7 +418,7 @@ TEMPLATE STYLE GEOTIMES 1
   line-height:14px;
 }
 .td_block_headline_geomedia_1 .kiri .card .card-title a {
-  font-size:16px;
+  font-size:18px;
   color:#000000;
 }
 .td_block_headline_geomedia_1 .kiri .card .card-footer,
@@ -473,6 +473,20 @@ TEMPLATE STYLE GEOTIMES 1
 /* end blok headline geomedia 1 */
 
 /* start blok homepage card 2x3 */
+.td_block_homepage_card_23 .cardhome {
+  padding-bottom:10px;
+}
+
+.td_block_homepage_card_23 .cardhome .card .card-title > a {
+  font-size:16px;
+  font-weight:bold;
+  color:#000000;
+  line-height:1.5em;
+}
+.td_block_homepage_card_23 .cardhome .card .card-title {
+  height:70px;
+}
+
 @media screen and (max-width:768px) {
   .td_block_homepage_card_23 .cardhome:first-child,
   .td_block_homepage_card_23 .cardhome:nth-child(3),
@@ -484,7 +498,4 @@ TEMPLATE STYLE GEOTIMES 1
   .td_block_homepage_card_23 .cardhome:nth-child(4){
       padding-left:5px;
   }
-}
-.td_block_homepage_card_23 .cardhome {
-  padding-bottom:10px;
 }

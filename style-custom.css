@@ -8276,7 +8276,8 @@ blockquote.pull-right:after {
 }
 .td-post-author-name a {
   color: #797979;
-  font-size:12px;
+  font-size:13px;
+  text-transform:capitalize;
 }
 .td-post-author-name span {
   color: #ccc;
@@ -8292,7 +8293,7 @@ blockquote.pull-right:after {
   display: inline-block;
   position: relative;
   top: 2px;
-  font-size:1em;
+  font-size:12px;
 }
 .td-module-comments {
   position: relative;

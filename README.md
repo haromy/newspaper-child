@@ -21,3 +21,4 @@ task list
 - [ ] \(core) custom blok homepage
 - [x] \(core) custom blok card (3 row )
 - [x] \(core) custom blok card (2 row )
+- [x] \(core) remove header style 2 - 13
