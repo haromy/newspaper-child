@@ -8,6 +8,7 @@ team :
 
 task list
 - [x] \(core) custom header
+- [x] \(core) custom slider
 - [x] \(core) custom headline 1
 - [x] \(core) custom headline 2
 - [x] \(core) use bootstrap grid
