@@ -279,6 +279,11 @@ class geotimes_custom {
         td_api_single_template::delete('single_template_12');
         td_api_single_template::delete('single_template_13');
 
+        //unregister top bar template yang tidak diperlukan
+        td_api_top_bar_template::delete('td_top_bar_template_2');
+        td_api_top_bar_template::delete('td_top_bar_template_3');
+        td_api_top_bar_template::delete('td_top_bar_template_4');
+
         // hapus block yang tidak diperlukan
         td_api_single_template::delete('td_footer_template_14');
 
