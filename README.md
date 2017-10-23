@@ -1,7 +1,8 @@
 # newspaper-child by Geomedia
 Customize Wordpress Theme using Newspaper
 company : [Geomedia Group](https://geomedia.id/)
-team :
+
+# team :
 1. [Fariz Darmaniar](https://www.linkedin.com/in/haromy/) - backend developer
 2. [Fathana E.](https://www.linkedin.com/in/fathhana-euclidea/) - frontend developer
 3. [idham rahmanarto](https://www.linkedin.com/in/idham-rahmanarto-1257a348/) - UI UX designer
