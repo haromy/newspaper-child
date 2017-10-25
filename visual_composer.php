@@ -284,9 +284,189 @@ class geotimes_custom {
         td_api_top_bar_template::delete('td_top_bar_template_3');
         td_api_top_bar_template::delete('td_top_bar_template_4');
 
+        //unregister top blok template yang tidak diperlukan
+        td_api_block_template::delete('td_block_template_2');
+        td_api_block_template::delete('td_block_template_3');
+        td_api_block_template::delete('td_block_template_4');
+        td_api_block_template::delete('td_block_template_5');
+        td_api_block_template::delete('td_block_template_6');
+        td_api_block_template::delete('td_block_template_7');
+        td_api_block_template::delete('td_block_template_8');
+        td_api_block_template::delete('td_block_template_9');
+        td_api_block_template::delete('td_block_template_10');
+        td_api_block_template::delete('td_block_template_11');
+        td_api_block_template::delete('td_block_template_12');
+        td_api_block_template::delete('td_block_template_13');
+        td_api_block_template::delete('td_block_template_14');
+        td_api_block_template::delete('td_block_template_15');
+        td_api_block_template::delete('td_block_template_16');
+        td_api_block_template::delete('td_block_template_17');
+
+        //unregister unused block
+        td_api_block::delete('td_block_1');
+        td_api_block::delete('td_block_2');
+        td_api_block::delete('td_block_3');
+        td_api_block::delete('td_block_4');
+        td_api_block::delete('td_block_6');
+        td_api_block::delete('td_block_7');
+        td_api_block::delete('td_block_8');
+        td_api_block::delete('td_block_9');
+        td_api_block::delete('td_block_10');
+        td_api_block::delete('td_block_11');
+        td_api_block::delete('td_block_12');
+        td_api_block::delete('td_block_13');
+        td_api_block::delete('td_block_17');
+        td_api_block::delete('td_block_18');
+        td_api_block::delete('td_block_19');
+        td_api_block::delete('td_block_20');
+        td_api_block::delete('td_block_21');
+        td_api_block::delete('td_block_22');
+        td_api_block::delete('td_block_23');
+        td_api_block::delete('td_block_24');
+        td_api_block::delete('td_block_25');
+
+        td_api_block::delete('td_block_big_grid_1');
+        td_api_block::delete('td_block_big_grid_2');
+        td_api_block::delete('td_block_big_grid_3');
+        td_api_block::delete('td_block_big_grid_4');
+        td_api_block::delete('td_block_big_grid_5');
+        td_api_block::delete('td_block_big_grid_6');
+        td_api_block::delete('td_block_big_grid_7');
+        td_api_block::delete('td_block_big_grid_8');
+        td_api_block::delete('td_block_big_grid_9');
+        td_api_block::delete('td_block_big_grid_10');
+        td_api_block::delete('td_block_big_grid_11');
+        td_api_block::delete('td_block_big_grid_12');
+        td_api_block::delete('td_block_big_grid_fl_1');
+        td_api_block::delete('td_block_big_grid_fl_2');
+        td_api_block::delete('td_block_big_grid_fl_3');
+        td_api_block::delete('td_block_big_grid_fl_4');
+        td_api_block::delete('td_block_big_grid_fl_5');
+        td_api_block::delete('td_block_big_grid_fl_6');
+        td_api_block::delete('td_block_big_grid_fl_7');
+        td_api_block::delete('td_block_big_grid_fl_8');
+        td_api_block::delete('td_block_big_grid_fl_9');
+        td_api_block::delete('td_block_big_grid_fl_10');
+        td_api_block::delete('td_block_homepage_full_1');
+        td_api_block::delete('td_block_popular_categories');
+
+        //unregister unused module
+        td_api_module::delete('td_module_1');
+        td_api_module::delete('td_module_2');
+        td_api_module::delete('td_module_4');
+        td_api_module::delete('td_module_5');
+        td_api_module::delete('td_module_6');
+        td_api_module::delete('td_module_7');
+        td_api_module::delete('td_module_8');
+        td_api_module::delete('td_module_9');
+        td_api_module::delete('td_module_10');
+        td_api_module::delete('td_module_11');
+        td_api_module::delete('td_module_12');
+        td_api_module::delete('td_module_13');
+        td_api_module::delete('td_module_14');
+        td_api_module::delete('td_module_17');
+        td_api_module::delete('td_module_18');
+        td_api_module::delete('td_module_19');
+        td_api_module::delete('td_module_mx3');
+        td_api_module::delete('td_module_mx8');
+        td_api_module::delete('td_module_mx16');
+        td_api_module::delete('td_module_mx17');
+        
+        td_api_module::delete('td_module_mx5');
+        td_api_module::delete('td_module_mx6');
+        td_api_module::delete('td_module_mx9');
+        td_api_module::delete('td_module_mx10');
+        td_api_module::delete('td_module_mx11');
+        td_api_module::delete('td_module_mx12');
+        td_api_module::delete('td_module_mx13');
+        td_api_module::delete('td_module_mx14');
+        td_api_module::delete('td_module_mx15');
+        td_api_module::delete('td_module_mx18');
+        td_api_module::delete('td_module_mx19');
+        td_api_module::delete('td_module_mx20');
+        td_api_module::delete('td_module_mx21');
+        td_api_module::delete('td_module_mx22');
+        td_api_module::delete('td_module_mx23');
+        td_api_module::delete('td_module_mx24');
+        td_api_module::delete('td_module_mx25');
+        td_api_module::delete('td_module_mx26');
+
         // hapus block yang tidak diperlukan
         td_api_single_template::delete('td_footer_template_14');
 
+        // update module untuk used in block
+        td_api_module::update('td_module_8',
+            array(
+                'file' => td_global::$get_template_directory . '/includes/modules/td_module_8.php',
+                'text' => 'Module 8',
+                'img' => td_global::$get_template_directory_uri . '/images/panel/modules/td_module_8.png',
+                'used_on_blocks' => array('td_block_9'),
+                'excerpt_title' => 15,
+                'excerpt_content' => '',
+                'enabled_on_more_articles_box' => true,
+                'enabled_on_loops' => true,
+                'uses_columns' => true,
+                'category_label' => true,
+                'class' => 'td_module_wrap',
+                'group' => ''
+            )
+        );
+        td_api_module::update('td_module_mx1',
+            array(
+                'file' => td_global::$get_template_directory . '/includes/modules/td_module_mx1.php',
+                'text' => 'Module MX1',
+                'img' => '',
+                'used_on_blocks' => array('td_block_14'),
+                'excerpt_title' => 25,
+                'excerpt_content' => '',
+                'enabled_on_more_articles_box' => false,
+                'enabled_on_loops' => false,
+                'uses_columns' => false,
+                'category_label' => true,
+                'class' => 'td_module_wrap td-animation-stack',
+                'group' => ''
+            )
+        );
+
+        // Add Custom Blok Homepage
+
+        td_api_block::add('td_block_70s',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Block 70s',
+                "base" => 'td_block_70s',
+                "class" => 'td_block_70s',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_70s',
+                'file' => $this->plugin_path . '/layout/shortcodes/td_block_70s.php',
+                "params" => array_merge(
+                    td_config::get_map_block_general_array(),
+                    td_config::get_map_filter_array(),
+                    td_config::get_map_block_ajax_filter_array(),
+                    td_config::get_map_block_pagination_array()
+                )
+            )
+        );
+
+        td_api_module::add('td_module_mx1_70s',
+            array(
+                'file' => $this->plugin_path . '/layout/modules/td_module_mx1_70s.php',
+                'text' => 'Module MX1 Custom 70s',
+                'img' => '',
+                'used_on_blocks' => array('td_block_70s'),
+                'excerpt_title' => 25,
+                'excerpt_content' => '',
+                'enabled_on_more_articles_box' => false,
+                'enabled_on_loops' => false,
+                'uses_columns' => false,            
+                'category_label' => true,
+                'class' => 'td_module_wrap td-animation-stack',
+                'group' => '' 
+            )
+        );
         
     }
 }
