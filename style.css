@@ -499,3 +499,238 @@ TEMPLATE STYLE GEOTIMES 1
       padding-left:5px;
   }
 }
+
+/********************
+* Footer Custom 1 css *
+*********************/
+
+.custom-footer .input-group {
+  width: 320px;  
+}
+
+.custom-footer .widget {
+  margin-bottom: 0;
+}
+
+.custom-footer .input-group .form-control:not(:last-child){
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #454545;
+  color: #fff;
+}
+
+.custom-footer .input-group-btn:not(:first-child)>.btn{
+  background-color: #282828;
+  border: 1px solid #282828;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 7px 15px;
+}
+
+
+footer {
+  padding: 0 10%;
+}
+
+.footer {
+  line-height: 40px;
+}
+
+.sub-footer {
+  width: 100%;
+  line-height: 45px;
+  background-color: #891B57;
+}
+
+.sub-footer-menu {
+  background-color: #6A0F45;
+}
+
+.custom-footer,
+.footer-geo-network
+{
+  background-color: #333333;
+}
+
+.sub-footer-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.custom-footer li {
+    list-style: none;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.custom-footer .input-group .form-control:not(:last-child){
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #454545;
+  color: #fff;
+}
+
+.custom-footer .input-group-btn:not(:first-child)>.btn{
+  background-color: #282828;
+  border: 1px solid #282828;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 7px 15px;
+}
+
+.custom-footer .input-group {
+    width: 95%;
+}
+
+.sub-footer-menu a,
+.footer-geo-network a, 
+.custom-footer a {
+  color: #fff !important;
+}
+
+.custom-footer-bottom {
+  border-top: 1px solid gray;
+}
+
+.custom-footer .col-md-6 {
+  border-left: 1px solid gray;
+}
+
+.custom-footer .textwidget {
+      padding-left: 10px;
+  }
+
+.td-main-content-wrap {
+  padding-bottom: 0 !important;
+  }
+
+.td-scroll-up.custom-scroll-top {
+    position: inherit;
+    width: 100%;
+    height: 50px;
+    background-color: #891b58;
+    transform: none;
+}
+
+.footer-custom-1 a:hover {
+    text-decoration: none;
+}
+
+.footer-custom-1 .menu-top-container {
+    text-align: center;
+}
+
+/* Add 2 */
+
+.footer-custom-1 .sub-footer-menu ul {
+    margin: 0 auto;
+}      
+
+.custom-scroll-top span {
+    vertical-align: top;
+}
+
+.custom-home img {
+    vertical-align: middle;
+}
+
+.sign-up-email {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 500px){
+  .custom-home{
+    width: 85%;
+    text-align: center;
+  }
+} 
+
+@media (max-width: 768px){
+  .custom-footer-bottom{
+    text-align: center;
+  }
+  .td-main-content-wrap {
+      padding-bottom: 0 !important;
+  }
+  .footer-custom-1 #menu-bottom-menu li {
+      margin-left: 0;
+  }
+}
+
+@media (max-width: 800px){
+    .footer-geo-network a{
+      font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px){
+  .footer li {
+      line-height: 16px;
+  }
+}
+
+
+/* Bootstrap */
+.pt-1 {
+  padding-top: 5px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+
+.input-group-btn:not(:first-child) > .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.input-group-btn:not(:first-child) > .btn,
+.input-group-btn:not(:first-child) > .btn-group {
+  z-index: 2;
+  margin-left: -1px;
+}

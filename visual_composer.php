@@ -467,6 +467,25 @@ class geotimes_custom {
                 'group' => '' 
             )
         );
+
+        // Add Custom Footer
+        td_api_footer_template::add('td_footer_custom_1',
+        array(
+            'img' => $this->plugin_url . '/images/panel/footer_templates/icon-footer-custom-1.png',
+            'file' => $this->plugin_path . '/parts/footer/td_footer_custom_1.php',
+            'text' => 'Style Custom 1'
+        )
+        );
+        
+        register_sidebar(array(
+            'name'=>'Footer 4',
+            'id' => 'td-footer-4',
+            'before_widget' => '<aside class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<div class="block-title"><span>',
+            'after_title' => '</span></div>'
+        ));
+        
         
     }
 }
