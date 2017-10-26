@@ -427,6 +427,68 @@ class geotimes_custom {
                 'group' => ''
             )
         );
+<<<<<<< HEAD
+
+        // Add Custom Blok Homepage
+
+        td_api_block::add('td_block_70s',
+            array(
+                'map_in_visual_composer' => true,
+                'map_in_td_composer' => true,
+                "name" => 'Block 70s',
+                "base" => 'td_block_70s',
+                "class" => 'td_block_70s',
+                "controls" => "full",
+                "category" => 'Blocks',
+                'tdc_category' => 'Blocks',
+                'icon' => 'icon-pagebuilder-td_block_70s',
+                'file' => $this->plugin_path . '/layout/shortcodes/td_block_70s.php',
+                "params" => array_merge(
+                    td_config::get_map_block_general_array(),
+                    td_config::get_map_filter_array(),
+                    td_config::get_map_block_ajax_filter_array(),
+                    td_config::get_map_block_pagination_array()
+                )
+            )
+        );
+
+        td_api_module::add('td_module_mx1_70s',
+            array(
+                'file' => $this->plugin_path . '/layout/modules/td_module_mx1_70s.php',
+                'text' => 'Module MX1 Custom 70s',
+                'img' => '',
+                'used_on_blocks' => array('td_block_70s'),
+                'excerpt_title' => 25,
+                'excerpt_content' => '',
+                'enabled_on_more_articles_box' => false,
+                'enabled_on_loops' => false,
+                'uses_columns' => false,            
+                'category_label' => true,
+                'class' => 'td_module_wrap td-animation-stack',
+                'group' => '' 
+            )
+        );
+
+        // Add Custom Footer
+        td_api_footer_template::add('td_footer_custom_1',
+        array(
+            'img' => $this->plugin_url . '/images/panel/footer_templates/icon-footer-custom-1.png',
+            'file' => $this->plugin_path . '/parts/footer/td_footer_custom_1.php',
+            'text' => 'Style Custom 1'
+        )
+        );
+        
+        register_sidebar(array(
+            'name'=>'Footer 4',
+            'id' => 'td-footer-4',
+            'before_widget' => '<aside class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<div class="block-title"><span>',
+            'after_title' => '</span></div>'
+        ));
+        
+=======
+>>>>>>> 08befd31001a01a078675c9364d6e5fae0cc23e5
         
     }
 }
