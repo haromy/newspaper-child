@@ -427,6 +427,7 @@ class geotimes_custom {
                 'group' => ''
             )
         );
+<<<<<<< HEAD
 
         // Add Custom Blok Homepage
 
@@ -486,6 +487,8 @@ class geotimes_custom {
             'after_title' => '</span></div>'
         ));
         
+=======
+>>>>>>> 08befd31001a01a078675c9364d6e5fae0cc23e5
         
     }
 }
