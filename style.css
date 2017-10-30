@@ -119,6 +119,20 @@ TEMPLATE STYLE GEOTIMES 1
   .td_block_related_footer_geotimes .card-block {
     min-height:95px;
   }
+  .atas1 .card-img-top img,
+  .atas2 .card-img-top img,
+  .atas3 .card-img-top img{
+      display:none;
+  }
+  .atas1 .card, .atas2 .card {
+      border-top:1px solid #dddddd !important;
+  }
+  .atas2 .card, .atas3 .card {
+      border-bottom:1px solid #dddddd !important;
+  }
+  .atas3 .card {
+      margin-bottom:10px;
+  }
 }
 
 /* 450px to 768px setting */

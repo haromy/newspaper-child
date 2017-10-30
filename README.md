@@ -22,3 +22,9 @@ task list
 - [x] \(core) custom blok card (3 row )
 - [x] \(core) custom blok card (2 row )
 - [x] \(core) remove header style 2 - 13
+
+additional task list
+- [x] fixing td_block_70s  row, col layout
+- [x] fixing td_module_mx1_70s image size
+- [x] fixing font style
+- [x] fixing bug login page on mobile

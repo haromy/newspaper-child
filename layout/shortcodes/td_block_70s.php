@@ -48,24 +48,24 @@ class td_block_70s extends td_block {
         if (!empty($posts)) {
             foreach ($posts as $post) {
                 $td_module_card = new td_module_mx1_70s($post);
-				if ($td_post_count == 0 || $td_post_count == 1 || $td_post_count == 4) {
+				if ($td_post_count == 0 || $td_post_count == 1) {
                     $buffy .='<div class="row">';
 				}
 				if ($td_post_count == 0) {
 					$buffy .='<div class="col-12">';
 				}
 				if ($td_post_count >= 1) {
-					$buffy .='<div class="col-4">';
+					$buffy .='<div class="col-6 col-xl-4">';
                 }
                 if ($td_post_count == 0) {
 					$buffy .= $td_module_card->render('munculgambar');
 				} else {
                     $buffy .= $td_module_card->render('hide');
                 }
-				if ($td_post_count > 0) {
+				if ($td_post_count >= 0) {
 					$buffy .='</div>';
 				}
-				if ($td_post_count == 0 || $td_post_count == 3 || $td_post_count == 6) {
+				if ($td_post_count == 0 || $td_post_count == 6) {
 					$buffy .='</div>';
 				}
                 $td_post_count++;

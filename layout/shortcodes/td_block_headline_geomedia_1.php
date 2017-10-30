@@ -53,17 +53,17 @@ class td_block_headline_geomedia_1 extends td_block {
                     if($post_count==2) {
                         $buffy.='<div class="col-lg-6 kanan">';
                         $buffy .='<div class="row">';
-                        $buffy .='<div class="col-4 atas1">';
+                        $buffy .='<div class="col-md-4 atas1">';
                         $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
                     if($post_count==3) {
-                        $buffy.='<div class="col-4 atas2">';
+                        $buffy.='<div class="col-md-4 atas2">';
                         $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
                     if($post_count==4) {
-                        $buffy.='<div class="col-4 atas3">';
+                        $buffy.='<div class="col-md-4 atas3">';
                         $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div></div>';
                     }
@@ -82,7 +82,7 @@ class td_block_headline_geomedia_1 extends td_block {
                     }
                     $post_count++;
                 }
-                $buffy .= '</div>'; // close td-big-grid-wrapper
+                $buffy .= '</div></div>'; // close td-big-grid-wrapper
             }
         }
 

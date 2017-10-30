@@ -2875,7 +2875,7 @@ ul.sf-js-enabled > li > a > i.td-icon-menu-down:before {
     Register section
 */
 #td-mobile-nav .td-register-section {
-  position: absolute;
+  position: relative;
   top: 0;
   color: #fff;
   width: 100%;
@@ -3330,7 +3330,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: dinprobold;
   color: #111111;
   font-weight: 400;
   margin: 6px 0 6px 0;
@@ -4620,8 +4620,8 @@ blockquote.pull-right:after {
 }
 .td_module_wrap .entry-title {
   /* General Title */
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 18px;
   margin: 0 0 6px 0;
 }
 .td_module_wrap:hover .entry-title a {
@@ -21295,7 +21295,7 @@ a.vc_btn-black.vc_btn_outlined:hover {
   margin: 0;
 }
 .vc_wp_text .textwidget {
-  margin: 12px 0 43px 0;
+  margin: 15px 0 15px 0;
 }
 .vc_wp_tagcloud .widgettitle {
   margin-bottom: 26px;
