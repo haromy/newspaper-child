@@ -761,14 +761,12 @@ jQuery(document).ready(function(){
             jQuery( '.networkmedia' ).addClass( 'muncul' ).slideDown(300);
         }
     });
-    (function($) {
-        $(".custom-more-socials").click(function(){
-            $(this).closest(".item-list-author").addClass("active");
-        });
-        $(".more-social-close").click(function(){
-            $(this).closest(".item-list-author").removeClass("active");
-        });
-    })(jQuery);
+    jQuery('.custom-more-socials').click(function(){
+        jQuery(this).closest('.item-list-author').addClass("active");
+    });
+    jQuery('.more-social-close').click(function(){
+        jQuery(this).closest('.item-list-author').removeClass("active");
+    });
 });
 
 

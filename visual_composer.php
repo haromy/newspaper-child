@@ -457,9 +457,9 @@ class geotimes_custom {
                 'used_on_blocks' => array('td_block_70s'),
                 'excerpt_title' => 25,
                 'excerpt_content' => '',
-                'enabled_on_more_articles_box' => false,
-                'enabled_on_loops' => false,
-                'uses_columns' => false,            
+                'enabled_on_more_articles_box' => true,
+                'enabled_on_loops' => true,
+                'uses_columns' => true,            
                 'category_label' => true,
                 'class' => 'td_module_wrap td-animation-stack',
                 'group' => '' 
@@ -498,15 +498,14 @@ class geotimes_custom {
             'icon' => 'icon-pagebuilder-td_block_custom_list_authors',
             'file' => $this->plugin_path . '/layout/shortcodes/td_block_custom_list_authors.php',
             "params" => array_merge(
+                td_config::get_map_block_pagination_array(),
                 td_config::get_map_block_general_array(),
                 array(
                     array (
                         "param_name" => "roles",
                         "type" => "textfield",
                         "value" => '',
-                        "heading" => "User roles",
-                        //"description" => "Optional - Filter by role, add one or more <a target='_blank' href='https://codex.wordpress.org/Roles_and_Capabilities'>user roles</a> , separate them with a comma (ex. Administrator, Editor, Author, Contributor, Subscriber)",
-                        "description" => "Optional - Filter by role, add one or more user rolse, separate them with a comma (ex. Administrator, Editor, Author, Contributor, Subscriber). Please see Wordpress Roles and Capabilities",
+                        "heading" => "User roles","description" => "Optional - Filter by role, add one or more user rolse, separate them with a comma (ex. Administrator, Editor, Author, Contributor, Subscriber). Please see Wordpress Roles and Capabilities",
                         "holder" => "div",
                         "class" => "",
                     ),
