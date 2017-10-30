@@ -3481,14 +3481,6 @@ input[type=password] {
     font-size: 16px;
   }
 }
-/*
-----------------------------------------------------------------------------
-  Site wide > WordPress Text, Images & Captions
-----------------------------------------------------------------------------
-*/
-/*  ----------------------------------------------------------------------------
-    text and Images align
-*/
 .td-post-content img,
 .wpb_text_column img,
 .td_block_text_with_title img,
@@ -3563,25 +3555,12 @@ figure.aligncenter {
 .aligncenter img {
   width: 100%;
 }
-/*  ----------------------------------------------------------------------------
-    align left
-     -> on desktop - the tinyMCE size is used
-     -> on tablet(s) - apply the max-width to make it look nice
-     -> on phones  - center, max width 100%
-        + fix for tinyMCE padding
-     -> on full width td-pb-span12
-*/
 .alignleft {
   float: left;
   margin-top: 6px;
   margin-right: 24px;
   margin-bottom: 6px !important;
-  /* hack for tinyMCE / post content diffs*/
   margin-left: 0;
-  /* responsive landscape tablet */
-  /* responsive portrait tablet */
-  /* responsive portrait phone - just a bit, after 500px we make it non float */
-  /* responsive phone CUSTOM - align the image on center */
 }
 @media (min-width: 1019px) and (max-width: 1140px) {
   .alignleft {
@@ -3624,8 +3603,6 @@ figure.aligncenter {
 }
 .td-pb-span12 .alignleft,
 .mceContentBody-max-width-big .alignleft {
-  /* responsive landscape tablet */
-  /* responsive portrait tablet */
 }
 @media (min-width: 1019px) and (max-width: 1140px) {
   .td-pb-span12 .alignleft,
@@ -3639,9 +3616,6 @@ figure.aligncenter {
     max-width: 400px !important;
   }
 }
-/*  ----------------------------------------------------------------------------
-    Screen reader text
-*/
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
@@ -3649,25 +3623,12 @@ figure.aligncenter {
   position: absolute !important;
   width: 1px;
 }
-/*  ----------------------------------------------------------------------------
-    align right
-     -> on desktop - the tinyMCE size is used
-     -> on tablets - apply the max-width to make it look nice
-     -> on phones  - center, max width 100%
-        + fix for tinyMCE padding
-     -> on full width td-pb-span12
-*/
 .alignright {
   float: right;
   margin-top: 6px;
   margin-right: 0;
   margin-bottom: 6px !important;
-  /* hack for tinyMCE / post content diffs*/
   margin-left: 24px;
-  /* responsive landscape tablet */
-  /* responsive portrait tablet */
-  /* responsive portrait phone - just a bit, after 500px we make it non float */
-  /* responsive phone CUSTOM  - align the image on center */
 }
 @media (min-width: 1019px) and (max-width: 1140px) {
   .alignright {
@@ -3710,8 +3671,6 @@ figure.aligncenter {
 }
 .td-pb-span12 .alignright,
 .mceContentBody-max-width-big .alignright {
-  /* responsive landscape tablet */
-  /* responsive portrait tablet */
 }
 @media (min-width: 1019px) and (max-width: 1140px) {
   .td-pb-span12 .alignright,
@@ -3724,15 +3683,7 @@ figure.aligncenter {
   .mceContentBody-max-width-big .alignright {
     max-width: 400px !important;
   }
-}
-/*
-----------------------------------------------------------------------------
-  Css for:
-  Page content
-  Post content
-  TinyMCE content
-----------------------------------------------------------------------------
-*/
+} 
 .td-page-content,
 .td-post-content,
 .wpb_text_column,
@@ -12439,9 +12390,6 @@ header .td-icon-comments {
 .td-classic-twitter .twitter-share-button {
   margin: 0 !important;
 }
-/*  ----------------------------------------------------------------------------
-    Sharing Bottom
-*/
 .td-post-sharing-bottom {
   border: 1px solid #ededed;
   padding: 10px 26px;
@@ -12515,7 +12463,6 @@ header .td-icon-comments {
     padding: 20px 0;
   }
 }
-/* responsive 580px phone */
 @media (max-width: 580px) {
   .td-post-sharing-top .td-social-but-text {
     display: none;
@@ -12540,9 +12487,6 @@ header .td-icon-comments {
 .page-nav.page-nav-post {
   margin-top: 0;
 }
-/*  ----------------------------------------------------------------------------
-    Source and Via
-*/
 .td-post-source-tags {
   font-size: 11px;
 }
@@ -12588,9 +12532,6 @@ header .td-icon-comments {
   background-color: #811a52;
   border-color: #811a52;
 }
-/*  ----------------------------------------------------------------------------
-    Tags
-*/
 .td-tags {
   margin: 0 0 30px 0;
   font-family: 'Open Sans', arial, sans-serif;
@@ -12642,7 +12583,6 @@ header .td-icon-comments {
 }
 .td-post-prev-post,
 .td-post-next-post {
-  /* responsive portrait phone */
 }
 @media (max-width: 767px) {
   .td-post-prev-post,
@@ -12650,15 +12590,12 @@ header .td-icon-comments {
     width: 50%;
   }
 }
-/*  ----------------------------------------------------------------------------
-    Author box
-*/
 .author-box-wrap {
-  border: 1px solid #ededed;
-  padding: 21px;
+  padding: 15px;
   margin-bottom: 48px;
-  background-color:#ededed;
-  border-radius:10px;
+  box-shadow:0 0 3px 2px #acacac;
+  -webkit-box-shadow:0 0 3px 2px #acacac;
+  border-bottom:4px solid #811a52;
   /* responsive portrait phone */
 }
 @media (max-width: 767px) {
@@ -12668,7 +12605,7 @@ header .td-icon-comments {
 }
 .author-box-wrap .avatar {
   float: left;
-  max-width: 96px;
+  max-width: 48px;
   border-radius:50%;
   /* responsive portrait phone */
 }
@@ -12679,7 +12616,7 @@ header .td-icon-comments {
   }
 }
 .author-box-wrap .desc {
-  margin-left: 117px;
+  margin-left: 60px;s
   font-size: 12px;
   /* responsive portrait phone */
 }
@@ -12715,7 +12652,6 @@ header .td-icon-comments {
   font-size: 15px;
   line-height: 21px;
   font-weight: 700;
-  margin: 7px 0 8px 0;
 }
 .td-author-name a {
   color: #222;
@@ -12904,7 +12840,6 @@ header .td-icon-comments {
 .td-related-title > .td-related-right {
   display: inline-block;
   white-space: nowrap;
-  /* responsive 320px phone */
 }
 @media (max-width: 320px) {
   .td-related-title > .td-related-left,
@@ -12913,7 +12848,6 @@ header .td-icon-comments {
   }
 }
 .td-related-title > .td-related-right {
-  /* responsive portrait phone */
 }
 @media (max-width: 767px) {
   .td-related-title > .td-related-right {
@@ -12929,13 +12863,8 @@ header .td-icon-comments {
 .td_mod_related_posts:hover h3 > a {
   color: #811a52;
 }
-/*  ----------------------------------
-    Parallax header
-*/
 .td-parallax-header {
   margin-bottom: 60px;
-  /* responsive portrait tablet */
-  /* responsive portrait phone */
 }
 @media (min-width: 768px) and (max-width: 1018px) {
   .td-parallax-header {

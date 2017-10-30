@@ -22,3 +22,16 @@ function my_scripts_method() {
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
 require_once('visual_composer.php');
+
+add_filter('manage_posts_columns', 'posts_column_views');
+add_action('manage_posts_custom_column', 'posts_custom_column_views',5,2);
+function posts_column_views($defaults){
+    $defaults['post_views'] = __('Views');
+    return $defaults;
+}
+function posts_custom_column_views($column_name, $id){
+	if($column_name === 'post_views'){
+        //echo getPostViews(get_the_ID());
+        echo wpp_get_views( get_the_ID() );
+    }
+}

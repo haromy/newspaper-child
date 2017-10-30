@@ -118,7 +118,6 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             <div class="row">
                                 <div class="col-lg-8">
                                     <?php echo $td_mod_single->get_next_prev_posts();?>
-                                    <?php //echo $td_mod_single->get_author_box();?>
                                 </div>
                             </div>
                             <div class="row">

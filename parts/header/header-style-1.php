@@ -11,37 +11,33 @@ Header style 1
     <div class="container-fluid">
         <div class="container networkmedia">
             <div class="row">
-                <div class="col-2 linklogo">
-                    <a href="https://geotimes.co.id/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/geotimes.png"></a>
+                <div class="col-1 linklogo">
                 </div>
-                <div class="col-2 linklogo">
+                <div class="col-1 linklogo">
                     <a href="https://setanmerah.net/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/setanmerah.png"></a>
                 </div>
-                <div class="col-2 linklogo">
+                <div class="col-1 linklogo">
                     <a href="https://poliklitik.com/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/poliklitik.png"></a>
                 </div>
-                <div class="col-2 linklogo">
+                <div class="col-1 linklogo">
                     <a href="https://meramuda.com/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/meramuda.png"></a>
                 </div>
-                <div class="col-2 linklogo">
-                    <a href="https://geolive.id/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/geolive.png"></a>
+                <div class="col-1 linklogo">
+                    <a href="https://geolive.id/" target="_blank" class="external" rel="nofollow"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/geolive.png"></a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-2 linklogo">
-                    <a href="http://tukang.com/" target="_blank"> <img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/tukang.png"></a>
-                </div>
-                <div class="col-2 linklogo">
+                <div class="col-1 linklogo">
                     <a href="https://inikpop.com/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/inikpop.png"></a>
                 </div>
-                <div class="col-2 linklogo">
-                    <a href="https://ligalaga.id/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/ligalaga.png"></a>
+                <div class="col-1 linklogo">
+                    <a href="https://ligalaga.id/" target="_blank" class="external" rel="nofollow"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/ligalaga.png"></a>
                 </div>
-                <div class="col-2 linklogo">
-                    <a href="http://infojakarta.net/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/infojakarta.png"></a>
+                <div class="col-1 linklogo">
+                    <a href="http://infojakarta.net/" target="_blank" class="external" rel="nofollow"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/infojakarta.png"></a>
                 </div>
-                <div class="col-2 linklogo">
-                    <a href="http://gizmo.id/" target="_blank"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/gizmo.png"></a>
+                <div class="col-1 linklogo">
+                    <a href="http://gizmo.id/" target="_blank" class="external" rel="nofollow"><img class="logonetwork" src="http://localhost/wp/wp-content/themes/Newspaper-child/logo/gizmo.png"></a>
+                </div>
+                <div class="col-1 linklogo">
                 </div>
             </div>
         </div>
