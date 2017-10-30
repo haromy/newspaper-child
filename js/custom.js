@@ -772,3 +772,18 @@ jQuery(document).ready(function(){
 });
 
 
+jQuery(function() {
+    var postsDiv = jQuery( '.postingpoliklitik' );
+    postsDiv.html( '<p>Loading...</p>' );
+    jQuery.getJSON( 'https://poliklitik.com/wp-json/wp/v2/posts/?_embed&categories=66&per_page=1', function( data ) {
+            postsDiv.empty();
+        
+        // Loop through each post.
+        jQuery.each( data, function( i, post ){
+            const link = post.link;
+            const title = post.title.rendered;
+            const excerpt = post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url;
+            postsDiv.append( '<a href="'+link+'" target="_blank"><img class="poliklitik" src=' + excerpt +' /></a><br><div class="judulpoliklitik">'+title+'</div>' );
+        });
+    });
+    });
