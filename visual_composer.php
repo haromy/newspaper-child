@@ -498,7 +498,6 @@ class geotimes_custom {
             'icon' => 'icon-pagebuilder-td_block_custom_list_authors',
             'file' => $this->plugin_path . '/layout/shortcodes/td_block_custom_list_authors.php',
             "params" => array_merge(
-                td_config::get_map_block_pagination_array(),
                 td_config::get_map_block_general_array(),
                 array(
                     array (
