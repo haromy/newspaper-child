@@ -24,9 +24,9 @@ task list
 - [x] \(core) remove header style 2 - 13
 
 additional task list
-- [x] fixing td_block_70s  row, col layout
-- [x] fixing td_module_mx1_70s image size
-- [x] fixing font style
-- [x] fixing bug login page on mobile
-- [x] add Din Pro regular + bold in CSS
-- [x] fix footer - used favicon , get copyright text from theme panel, remove subscriber email, remove scroll to top icon
+- [x] fixing td_block_70s  row, col layout (30/10/2017)
+- [x] fixing td_module_mx1_70s image size (30/10/2017)
+- [x] fixing font style (30/10/2017)
+- [x] fixing bug login page on mobile (30/10/2017)
+- [x] add Din Pro regular + bold in CSS (30/10/2017)
+- [x] fix footer - used favicon , get copyright text from theme panel, remove subscriber email, remove scroll to top icon (30/10/2017)
