@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # newspaper-child by Geomedia Group
+=======
+# newspaper-child by Geomedia
+>>>>>>> 34484be7bbf4aadb57c2ee4ee86a042399e117f3
 Customize Wordpress Theme using Newspaper<br />
 company : [Geomedia Group](https://geomedia.id/)
 
