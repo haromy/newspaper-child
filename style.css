@@ -518,7 +518,9 @@ TEMPLATE STYLE GEOTIMES 1
 /********************
 * Footer Custom 1 css *
 *********************/
-
+footer .widget {
+  margin-bottom:10px;
+}
 .custom-footer .input-group {
   width: 320px;  
 }
@@ -543,12 +545,13 @@ TEMPLATE STYLE GEOTIMES 1
 }
 
 
-footer {
-  padding: 0 10%;
-}
-
 .footer {
   line-height: 40px;
+}
+.copyright {
+  color:#ffffff;
+  padding:10px 0px;
+  margin:0px;
 }
 
 .sub-footer {
@@ -571,6 +574,7 @@ footer {
     list-style: none;
     display: inline-block;
     margin-right: 10px;
+    margin-left:10px;
     font-weight: 700;
 }
 
@@ -748,4 +752,11 @@ footer {
 .input-group-btn:not(:first-child) > .btn-group {
   z-index: 2;
   margin-left: -1px;
+}
+
+.footer-top {
+  background-color: #891b58;
+}
+.footer-bottom {
+  background-color: #333333;
 }

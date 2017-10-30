@@ -28,3 +28,5 @@ additional task list
 - [x] fixing td_module_mx1_70s image size
 - [x] fixing font style
 - [x] fixing bug login page on mobile
+- [x] add Din Pro regular + bold in CSS
+- [x] fix footer - used favicon , get copyright text from theme panel, remove subscriber email, remove scroll to top icon
