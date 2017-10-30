@@ -1,3 +1,13 @@
+@font-face {
+  font-family: dinprobold;
+  src: url(/font/DINPro-Bold.ttf);
+}
+@font-face {
+  font-family: dinproregular;
+  src: url(/font/DINProReg.otf);
+}
+
+
 body {
   visibility: visible !important;
 }
@@ -4659,6 +4669,7 @@ blockquote.pull-right:after {
   display: inline-block;
   position: relative;
   top: 2px;
+  font-family:dinproregular;
 }
 .td-post-author-name a {
   color: #797979;
@@ -26436,6 +26447,8 @@ td-md-is-safari
 .card-title {
   margin-top:5px;
   margin-bottom: 0.75rem;
+  font-family:dinprobold;
+  text-transform:capitalize;
 }
 
 .card-subtitle {
@@ -26853,6 +26866,7 @@ td-md-is-safari
 .td_module_sidebar .td-module-title {
   font-size: 16px;
   font-weight: 500;
+  font-family:dinprobold;
 }
 
 .td_module_sidebar .custom-post-count {

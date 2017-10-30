@@ -220,7 +220,6 @@ class geotimes_custom {
             array(
                 'file' => $this->plugin_path . "/layout/modules/td_module_card.php",
                 'text' => 'Module Card',
-                //'img' => $this->plugin_url . '/images/modules/td_module_sidebar.png',
                 'used_on_blocks' => array('td_block_headline_geomedia_1'),
                 'excerpt_title' => 12,
                 'excerpt_content' => 25,
@@ -243,7 +242,6 @@ class geotimes_custom {
                 "controls" => "full",
                 "category" => 'Blocks',
                 'tdc_category' => 'Blocks',
-                //'icon' => 'icon-pagebuilder-td_block_77',
                 'file' => $this->plugin_path . '/layout/shortcodes/td_block_homepage_card_23.php',
                 "params" => array_merge(
                     td_config::get_map_block_general_array(),

@@ -1,13 +1,9 @@
 <div class="td-container-wrap footer-custom-1 <?php echo td_util::get_option('td_full_footer'); ?>">
     <footer class="sub-footer text-white">
         <div class="row px-3 pt-1 td-scroll-up custom-scroll-top">
-          <a href="#">
-            <img src="http://localhost/tes_inikpop/wp-content/uploads/2017/10/back-icon.png" style="width:40px; height:46px;">
-            <span class="text-white ml-2">Back to top</span>
-          </a>
         </div>
         <div class="row sub-footer-menu">
-            <div class="col-sm-10 col-md-8">
+            <div class="col">
             <ul class="mb-0 pl-0 float-left">
               <li class="custom-home"><a href="<?php echo esc_url(home_url( '/' )); ?>"><img src="http://localhost/tes_inikpop/wp-content/uploads/2017/10/home-icon.png" style="width:25px"></a></li>
               <?php
@@ -19,11 +15,6 @@
                 ));
               ?> 
             </ul>
-            </div>  
-            <div class="col-sm-2 col-md-4 footer-geo-network text-center">
-                <a href="#" class="mb-0">
-                  <img src="http://localhost/tes_inikpop/wp-content/uploads/2017/10/icon-ex.png" style="width: 20px; margin-right:10px;"> GEOMEDIA NETWORK
-                </a>
             </div>  
         </div>
     </footer>

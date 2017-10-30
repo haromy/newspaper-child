@@ -369,15 +369,16 @@ TEMPLATE STYLE GEOTIMES 1
 }
 
 
-.td-main-sidebar .custom-block-title {
+.td_block_sidebar .custom-block-title {
   font-size:18px;
   font-weight:bold;
   padding:5px 10px;
   border-top:1px solid #dbdbdb;
   border-bottom:1px solid #dbdbdb;
+  margin:0px;
 }
 
-.td-main-sidebar .td_module_sidebar .custom-post-count {
+.td_module_sidebar .custom-post-count {
   font-weight:bold;
 }
 
