@@ -776,3 +776,28 @@ footer .widget {
 .footer-bottom {
   background-color: #333333;
 }
+
+
+/* author page */
+.authorcol {
+  margin:10px 0px;
+}
+.author-box .avatar {
+  float:left;
+  padding:3px;
+  border-radius:50%;
+}
+.author-box .meta-desc {
+  padding-top:3px;
+  padding-left:80px;
+  min-height:120px;
+  padding-right:5px;
+}
+.author-box {
+  background-color:#efefef;
+  border-radius:5px;
+}
+.excerpt-desc {
+  font-size:12px;
+  line-height: 14px;
+}

@@ -90,9 +90,31 @@ function duiwel_custom_list_users($args = '') {
         }
         //some extra Avatar stuff
         $avatar = 'wavatar';
-        $link = '<div class="col-6 col-md-4">'.get_avatar($author->user_email, '80', $avatar);
-        $link .= '<div id=directoryinfo>' . ' <a href="' . get_author_posts_url( $author->ID, $author->user_nicename ) . '" title="' . esc_attr( sprintf(__("Posts by %s"), $author->display_name) ) . '">' . $name . '</a>';
-        $link .= '</div></div>';
+        $link = '<div class="td_mod_wrap td-pb-padding-side item-list-author col-6 col-md-4">'; // open col
+            $link .= '<div class="custom-item-details">'; // open custom item
+                $link .= '<div class="item-details">'; // open item details
+                    $link .= '<a href="' . get_author_posts_url($author->ID) . '">' . get_avatar($author->user_email, '70') . '</a>';
+                    
+                    $link .= '<div class="custom-author-list-name">';
+                        $link .= '<a href="' . get_author_posts_url($author->ID) . '">' . $author->display_name . '</a>';
+                    $link .= '</div>';
+
+                    $link .= '<div class="custom-join-date">';
+                        $link .= 'Menulis di Geotimes sejak ';
+                        $link .= '<span>'.date( "j M Y", strtotime( $author->user_registered)).'</span>';
+                    $link .= '</div>';
+
+                    $link .= '<span class="custom-author-post-count">';
+                    $link .= count_user_posts($author->ID). ' '  . __td('tulisan', TD_THEME_NAME);
+                    $link .= '</span>';
+
+                    $link .= '<div class="custom-author-description">';
+                    $link .= list_authors_excerpt( get_the_author_meta('description', $author->ID) , 13 );
+                    $link .= '</div>';
+                
+                $link .= '</div>'; // close item-detail
+            $link .= '</div>'; // close custom item
+        $link .= '</div>'; // close col
         $return .= $link;
     }
 
@@ -106,7 +128,7 @@ function duiwel_custom_list_users($args = '') {
         ////// END WP_LIST_AUTHOR NORMALCY //////
         /////////////////////////////////////////
     // little spacer
-    echo "<br /><br />";
+    echo "<br/><br/>";
         //////////////////////////////
         ////// PAGINATION LINKS //////
         //////////////////////////////
@@ -162,15 +184,7 @@ if ($currentpage != $totalpages) {
             echo " <a href=' " , the_permalink() , "?currentpage=$totalpages'>>></a> ";
 
 
-} // end if
-/****** end build pagination links ******/
-
-
-        //////////////////////////////////
-        ////// END PAGINATION LINKS //////
-        //////////////////////////////////
-
-
+}
 }
 
 

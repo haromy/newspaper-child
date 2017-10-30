@@ -34,3 +34,4 @@ additional task list
 - [x] add Din Pro regular + bold in CSS (30/10/2017)
 - [x] fix footer - used favicon , get copyright text from theme panel, remove subscriber email, remove scroll to top icon (30/10/2017)
 - [x] fix single layout font style (30/10/2017)
+- [x] adding custom author page layout 1 & layout 2 (30/10/2017)
