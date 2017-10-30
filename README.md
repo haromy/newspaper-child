@@ -1,5 +1,5 @@
 # newspaper-child by Geomedia
-Customize Wordpress Theme using Newspaper
+Customize Wordpress Theme using Newspaper<br />
 company : [Geomedia Group](https://geomedia.id/)
 
 # team :
