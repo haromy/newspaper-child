@@ -32,3 +32,4 @@ additional task list
 - [x] fixing bug login page on mobile (30/10/2017)
 - [x] add Din Pro regular + bold in CSS (30/10/2017)
 - [x] fix footer - used favicon , get copyright text from theme panel, remove subscriber email, remove scroll to top icon (30/10/2017)
+- [x] fix single layout font style (30/10/2017)

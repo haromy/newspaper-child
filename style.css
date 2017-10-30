@@ -30,7 +30,7 @@ TEMPLATE STYLE GEOTIMES 1
 */
 .template-geotimes-1 .post-header .entry-title {
     font-size:2.563em;
-    font-weight: 700;
+    font-family:dinprobold;s
     margin:0px 0px;
     text-transform: capitalize;
     line-height: 40px;
@@ -108,7 +108,6 @@ TEMPLATE STYLE GEOTIMES 1
 .td_block_related_posts_geotimes .card .card-title {
   font-weight:bold;
   font-size:14px;
-  font-family:Roboto;
 }
 
 /* mobile version */
@@ -132,6 +131,12 @@ TEMPLATE STYLE GEOTIMES 1
   }
   .atas3 .card {
       margin-bottom:10px;
+  }
+  .col.menu {
+    text-align:center;
+  }
+  .favicon {
+    display: none;
   }
 }
 
@@ -328,7 +333,6 @@ TEMPLATE STYLE GEOTIMES 1
 }
 .td_block_opini_posts_geotimes .card-title {
   font-weight:bold;
-  text-transform:capitalize;
   min-height:80px;
   line-height: 20px;
 }
@@ -544,14 +548,26 @@ footer .widget {
   padding: 7px 15px;
 }
 
+.sub-footer-menu ul {
+  margin:10px 0px 0px 0px;
+}
+.sub-footer-menu {
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
 
 .footer {
   line-height: 40px;
+}
+.favicon {
+  margin-top:5px;
+  margin-left:5px;
 }
 .copyright {
   color:#ffffff;
   padding:10px 0px;
   margin:0px;
+  font-size:14px;
 }
 
 .sub-footer {
@@ -573,8 +589,8 @@ footer .widget {
 .sub-footer-menu ul li {
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
-    margin-left:10px;
+    margin-right: 5px;
+    margin-left:5px;
     font-weight: 700;
 }
 
