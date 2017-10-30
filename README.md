@@ -22,6 +22,7 @@ task list
 - [x] \(core) custom blok card (3 row )
 - [x] \(core) custom blok card (2 row )
 - [x] \(core) remove header style 2 - 13
+- [x] \(core) custom author list
 
 additional task list
 - [x] fixing td_block_70s  row, col layout (30/10/2017)

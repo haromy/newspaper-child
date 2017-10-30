@@ -483,6 +483,91 @@ class geotimes_custom {
             'before_title' => '<div class="block-title"><span>',
             'after_title' => '</span></div>'
         ));
+
+        // Add List Author
+
+        td_api_block::add('td_block_custom_list_authors',
+        array(
+            'map_in_visual_composer' => true,
+            'map_in_td_composer' => true,
+            "name" => 'Custom List Authors box',
+            "base" => "td_block_custom_list_authors",
+            "class" => "",
+            "controls" => "full",
+            "category" => 'Blocks',
+            'icon' => 'icon-pagebuilder-td_block_custom_list_authors',
+            'file' => $this->plugin_path . '/layout/shortcodes/td_block_custom_list_authors.php',
+            "params" => array_merge(
+                td_config::get_map_block_general_array(),
+                array(
+                    array (
+                        "param_name" => "roles",
+                        "type" => "textfield",
+                        "value" => '',
+                        "heading" => "User roles",
+                        //"description" => "Optional - Filter by role, add one or more <a target='_blank' href='https://codex.wordpress.org/Roles_and_Capabilities'>user roles</a> , separate them with a comma (ex. Administrator, Editor, Author, Contributor, Subscriber)",
+                        "description" => "Optional - Filter by role, add one or more user rolse, separate them with a comma (ex. Administrator, Editor, Author, Contributor, Subscriber). Please see Wordpress Roles and Capabilities",
+                        "holder" => "div",
+                        "class" => "",
+                    ),
+                    array(
+                        "param_name" => "sort",
+                        "type" => "dropdown",
+                        "value" => array('- Sort by name -' => '', 'Sort by post count' => 'post_count'),
+                        "heading" => 'Sort authors by:',
+                        "description" => "",
+                        "holder" => "div",
+                        "class" => "tdc-dropdown-big",
+                    ),
+                    array(
+                        "param_name" => "exclude",
+                        "type" => "textfield",
+                        "value" => '',
+                        "heading" => "Exclude authors id (, separated)",
+                        "description" => "",
+                        "holder" => "div",
+                        "class" => "",
+                    ),
+                    array(
+                        "param_name" => "include",
+                        "type" => "textfield",
+                        "value" => '',
+                        "heading" => "Include authors id (, separated) - do not use with exclude",
+                        "description" => "",
+                        "holder" => "div",
+                        "class" => "",
+                    ),
+                    array(
+                        'param_name' => 'el_class',
+                        'type' => 'textfield',
+                        'value' => '',
+                        'heading' => 'Extra class',
+                        'description' => 'Style particular content element differently - add a class name and refer to it in custom CSS',
+                        'class' => 'tdc-textfield-extrabig',
+                    ),
+                    array (
+                        'param_name' => 'css',
+                        'value' => '',
+                        'type' => 'css_editor',
+                        'heading' => 'Css',
+                        'group' => 'Design options',
+                    ),
+                    array (
+                        'param_name' => 'tdc_css',
+                        'value' => '',
+                        'type' => 'tdc_css_editor',
+                        'heading' => '',
+                        'group' => 'Design options',
+                    ),
+                )
+            )
+        )
+        );
+
+        //Add list author excerpt
+        function list_authors_excerpt ( $content, $limit = 20, $more = '...' ){                      
+            return $data = wp_trim_words( strip_tags( $content ), $limit, $more );
+        }
         
         
     }
