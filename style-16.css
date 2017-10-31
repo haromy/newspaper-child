@@ -1,6 +1,6 @@
 /*
-style : Elegant Yet Approachable
-url : http://blog.visme.co/website-color-schemes/ number 15
+style : Summer Inspired
+url : https://designschool.canva.com/blog/website-color-schemes/ number 17
 */
 
 @font-face {
@@ -23,7 +23,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     visibility: hidden;
   }
   .purple {
-    background-color:#123c69;
+    background-color:#286da8;
   }
   .clearfix {
     *zoom: 1;
@@ -1330,7 +1330,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     Style 1
   ----------------------------------------------------------------------  */
   .td-header-style-1 .td-header-top-menu-full {
-    background-color: #ac3b61;
+    background-color: #cd5360;
   }
   .td-header-style-1 .td-header-sp-logo {
     width: 284px;
@@ -1555,7 +1555,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .sf-menu > .current-category-ancestor > a:after,
   .sf-menu > li:hover > a:after,
   .sf-menu > .sfHover > a:after {
-    background-color: #123c69;
+    background-color: #286da8;
     width: 100%;
   }
   #td-header-menu {
@@ -1613,7 +1613,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .sf-menu ul .current-menu-ancestor > a,
   .sf-menu ul .current-category-ancestor > a,
   .sf-menu ul .current-menu-item > a {
-    color: #123c69;
+    color: #286da8;
   }
   .sf-menu li:hover,
   .sf-menu li.sfHover,
@@ -1647,7 +1647,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .sf-menu .td-menu-badge {
     font-size: 10px;
     background-color: #f0f8ff;
-    color: #123c69;
+    color: #286da8;
     border-radius: 10px;
     padding: 1px 7px 2px;
     margin-left: 6px;
@@ -1773,7 +1773,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-mega-menu-page .wpb_content_element ul li a:hover {
     background-color: transparent !important;
-    color: #123c69 !important;
+    color: #286da8 !important;
   }
   .td-mega-menu-page .vc_wp_custommenu ul li {
     padding: 5px 0 !important;
@@ -1850,7 +1850,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td_mega_menu_sub_cats .cur-sub-cat {
     background-color: #fff;
-    color: #123c69;
+    color: #286da8;
     border-top: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
   }
@@ -1948,10 +1948,10 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     transition: color 0.4s;
   }
   .td-mega-span h3 a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td_mod_mega_menu:hover .entry-title a {
-    color: #123c69;
+    color: #286da8;
   }
   #td-top-search {
     position: absolute;
@@ -2072,7 +2072,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     transition: background-color 0.4s;
   }
   .header-search-wrap .td-drop-down-search .btn:hover {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .header-search-wrap .td-drop-down-search:before {
     position: absolute;
@@ -2084,7 +2084,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     height: 0;
     border-style: solid;
     border-width: 0 5.5px 6px 5.5px;
-    border-color: transparent transparent #123c69 transparent;
+    border-color: transparent transparent #286da8 transparent;
   }
   .header-search-wrap .td-drop-down-search:after {
     position: absolute;
@@ -2096,7 +2096,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin: 0 auto;
     width: 100%;
     height: 3px;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .header-search-wrap .td_module_mx2 .entry-title a:after {
     position: absolute;
@@ -2136,7 +2136,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     display: block;
   }
   .header-search-wrap .result-msg a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .header-search-wrap .td-aj-search-results {
     background-color: rgba(144, 144, 144, 0.02);
@@ -2273,7 +2273,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     line-height: 1;
   }
   .top-header-menu li a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .top-header-menu > li {
     line-height: 28px;
@@ -2324,7 +2324,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .top-header-menu .current-menu-item > a,
   .top-header-menu .current-menu-ancestor > a,
   .top-header-menu .current-category-ancestor > a {
-    color: #123c69;
+    color: #286da8;
   }
   .top-header-menu ul .td-icon-menu-down,
   .top-header-menu .td-mega-menu .td-icon-menu-down {
@@ -2656,7 +2656,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .td-mobile-content .current-menu-item > a,
   .td-mobile-content .current-menu-ancestor > a,
   .td-mobile-content .current-category-ancestor > a {
-    color: #123c69;
+    color: #286da8;
   }
   .td-mobile-content .menu_icon {
     display: none;
@@ -3235,7 +3235,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     outline: none;
   }
   a {
-    color: #123c69;
+    color: #286da8;
     text-decoration: none;
   }
   ins {
@@ -3269,7 +3269,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #000;
   }
   cite a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   q {
     font-style: italic;
@@ -3441,7 +3441,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     transition: background-color 0.4s;
   }
   input[type=submit]:hover {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   input[type=text],
   input[type=url],
@@ -3854,7 +3854,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
-    color: #123c69;
+    color: #286da8;
     word-wrap: break-word;
     /* responsive portrait tablet */
     /* responsive portrait phone */
@@ -3991,7 +3991,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .comment-content .td_quote_box {
     margin: 0;
     background-color: #FCFCFC;
-    border-left: 2px solid #123c69;
+    border-left: 2px solid #286da8;
     padding: 15px 23px 0 23px;
     position: relative;
     top: 6px;
@@ -4287,7 +4287,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     display: block;
     font-size: 50px;
     line-height: 56px;
-    background-color: #123c69;
+    background-color: #286da8;
     color: white;
     text-align: center;
     margin: 9px 13px 0 0;
@@ -4402,7 +4402,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .td_round_btn {
     transition: background-color 0.1s ease;
     -webkit-transition: background-color 0.1s ease;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td_default_btn:hover,
   .td_round_btn:hover {
@@ -4415,15 +4415,15 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .td_outlined_btn {
     border-width: 2px;
     border-style: solid;
-    border-color: #123c69;
+    border-color: #286da8;
     border-radius: 4px;
-    color: #123c69;
+    color: #286da8;
     background-color: transparent;
     transition: all 0.1s ease ;
     -webkit-transition: all 0.1s ease;
   }
   .td_outlined_btn:hover {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
   }
   .td_outlined_btn:active {
@@ -4431,7 +4431,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     border-color: #444;
   }
   .td_shadow_btn {
-    background-color: #123c69;
+    background-color: #286da8;
     top: 0;
     -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.25);
@@ -4449,7 +4449,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     background-color: #444 !important;
   }
   .td_3D_btn {
-    background-color: #123c69;
+    background-color: #286da8;
     top: 0;
     transition: top 0.1s ease;
     -webkit-transition: top 0.1s ease;
@@ -4630,7 +4630,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin: 0 0 6px 0;
   }
   .td_module_wrap:hover .entry-title a {
-    color: #123c69;
+    color: #286da8;
   }
   /*  ----------------------------------------------------------------------------
       thumbnail
@@ -4677,7 +4677,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     font-family:dinprobold;
   }
   .td-post-author-name a {
-    color: #ac3b61;
+    color: #cd5360;
     font-size:12px;
     text-transform:capitalize;
   }
@@ -4742,7 +4742,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-read-more a,
   .more-link-wrap a {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -4796,7 +4796,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     vertical-align: top;
   }
   .td-post-category:hover {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-module-image {
     position: relative;
@@ -5503,7 +5503,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     z-index: 1;
   }
   .td-theme-slider:hover .slide-meta-cat a {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   @-moz-document url-prefix() {
     .td-theme-slider .slide-meta-cat a {
@@ -5901,18 +5901,18 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .wpb_tabs li:hover a,
   .woocommerce .product .products h2:not(.woocommerce-loop-product__title),
   .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-    background-color: #123c69 !important;
+    background-color: #286da8 !important;
   }
   .block-title,
   .wpb_tabs .wpb_tabs_nav,
   .woocommerce div.product .woocommerce-tabs ul.tabs:before {
-    border-color: #123c69;
+    border-color: #286da8;
   }
   .td_block_wrap .td-subcat-item .td-cur-simple-item {
-    background-color: #123c69;
+    background-color: #286da8;
     color:#ffffff;
   }
   /*  ----------------------------------------------------------------------------
@@ -5928,16 +5928,16 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     width: 25px;
     height: 25px;
     line-height: 24px;
-    border: 1px solid #123c69;
+    border: 1px solid #286da8;
     text-align: center;
     vertical-align: middle;
     font-size: 7px;
-    color: #123c69;
+    color: #286da8;
   }
   .td-next-prev-wrap a:hover {
-    background-color: #123c69;
-    border-color: #123c69;
-    color: #123c69;
+    background-color: #286da8;
+    border-color: #286da8;
+    color: #286da8;
   }
   .td-next-prev-wrap .ajax-page-disabled {
     opacity: 0.5;
@@ -5988,8 +5988,8 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #A5A5A5;
   }
   .td-load-more-wrap a:hover {
-    background-color: #123c69;
-    border-color: #123c69;
+    background-color: #286da8;
+    border-color: #286da8;
     color: #fff;
     text-decoration: none !important;
   }
@@ -6040,7 +6040,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     line-height: 1;
   }
   .td-subcat-filter .td-subcat-list a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-subcat-filter .td-subcat-dropdown {
     display: inline-block;
@@ -6106,7 +6106,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     padding-right: 15px;
   }
   .td-subcat-filter .td-subcat-dropdown a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-subcat-filter .td-subcat-dropdown li {
     margin-left: 0;
@@ -6673,7 +6673,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .td-trending-now-wrapper:hover .td-trending-now-title {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-trending-now-wrapper .td-trending-now-nav-right {
     padding-left: 2px;
@@ -6819,7 +6819,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     font-style: italic;
     text-align: left;
     text-transform: uppercase;
-    color: #123c69;
+    color: #286da8;
     margin-top: 10px;
     /* responsive portrait tablet */
   }
@@ -6886,7 +6886,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #000;
   }
   .td_block_author a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   /*  ----------------------------------------------------------------------------
       Single image
@@ -7420,8 +7420,8 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     border-color: #111;
   }
   .td-menu-blocks-custom .current-menu-item a {
-    border-color: #123c69;
-    background-color: #123c69;
+    border-color: #286da8;
+    background-color: #286da8;
     color: #fff;
   }
   .td-menu-blocks-custom .current-menu-item a:hover {
@@ -7449,13 +7449,13 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .td-menu-block-headers li.current-menu-item img {
-    border-color: #123c69;
+    border-color: #286da8;
   }
   .td-menu-block-headers li.current-menu-item a {
-    color: #123c69;
+    color: #286da8;
   }
   .td-menu-block-headers li:hover img {
-    border-color: #123c69;
+    border-color: #286da8;
   }
   .td-menu-block-headers li img {
     display: block;
@@ -7513,8 +7513,8 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     border-color: #111;
   }
   .td-list-menu-inline .current-menu-item a {
-    border-color: #123c69;
-    background-color: #123c69;
+    border-color: #286da8;
+    background-color: #286da8;
     color: #fff !important;
   }
   .td-tab-blocks-custom {
@@ -7713,7 +7713,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-custom-menu-blocks .td-custom-menu-list ul li.current-menu-item a,
   .td-custom-menu-blocks .td-custom-menu-list ul li:hover {
-    color: #123c69;
+    color: #286da8;
   }
   @media (max-width: 767px) {
     .td-custom-menu-blocks .td-custom-menu-list ul li {
@@ -7781,11 +7781,11 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-custom-menu-blocks .td-custom-menu-list:hover > a,
   .td-custom-menu-blocks .current-menu-parent > a {
-    color: #123c69;
+    color: #286da8;
   }
   .td-custom-menu-blocks .td-custom-menu-list:hover > a span,
   .td-custom-menu-blocks .current-menu-parent > a span {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-custom-menu-blocks .td-custom-menu-hidden {
     visibility: hidden;
@@ -8655,14 +8655,14 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     width: 100%;
     position: absolute;
     z-index: 1;
-    background: #123c69;
-    background: -moz-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #123c69), color-stop(100%, #4a8f5e));
-    background: -webkit-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: -o-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: -ms-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#123c69', endColorstr='#4a8f5e', GradientType=1);
+    background: #286da8;
+    background: -moz-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #286da8), color-stop(100%, #4a8f5e));
+    background: -webkit-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: -o-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: -ms-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#286da8', endColorstr='#4a8f5e', GradientType=1);
   }
   .td-grid-style-2 .td-big-grid-post-1 .td-module-thumb a:last-child:before,
   .td-grid-style-3 .td-big-grid-post-1 .td-module-thumb a:last-child:before,
@@ -8765,14 +8765,14 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     width: 100%;
     position: absolute;
     z-index: 1;
-    background: #123c69;
-    background: -moz-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #123c69), color-stop(100%, #4a8f5e));
-    background: -webkit-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: -o-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: -ms-linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    background: linear-gradient(45deg, #123c69 0%, #4a8f5e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#123c69', endColorstr='#4a8f5e', GradientType=1);
+    background: #286da8;
+    background: -moz-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #286da8), color-stop(100%, #4a8f5e));
+    background: -webkit-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: -o-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: -ms-linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    background: linear-gradient(45deg, #286da8 0%, #4a8f5e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#286da8', endColorstr='#4a8f5e', GradientType=1);
   }
   .td-grid-style-2 .td-video-play-ico img,
   .td-grid-style-3 .td-video-play-ico img {
@@ -8909,7 +8909,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     background-color: rgba(0, 0, 0, 0.1);
   }
   .td-grid-style-1.td-hover-1 .td-big-grid-post:hover .td-post-category {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-grid-style-1 .td-video-play-ico img {
     /* responsive portrait phone */
@@ -9190,7 +9190,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     background-color: rgba(0, 0, 0, 0.4);
   }
   .td-grid-style-4 .entry-title {
-    background-color: #123c69;
+    background-color: #286da8;
     background-color: rgba(77, 178, 236, 0.7);
   }
   .td-grid-style-4 .entry-title a {
@@ -9422,7 +9422,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     -moz-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
   }
   .td-grid-style-5.td-hover-1 .td-big-grid-post:hover .td-post-category {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   /*
     Style 6
@@ -9629,7 +9629,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
       height: 100%;
       position: absolute;
       z-index: 1;
-      background-color: #123c69;
+      background-color: #286da8;
       opacity: 0;
       top: 0;
       left: 0;
@@ -10542,14 +10542,14 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-right: 5px;
   }
   .td_top_authors .td-active .td-author-post-count {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td_top_authors .td-active .td-author-comments-count {
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.8;
   }
   .td_top_authors .td-active .td-authors-name a {
-    color: #123c69;
+    color: #286da8;
   }
   .td_top_authors .td_mod_wrap {
     min-height: 70px;
@@ -10561,14 +10561,14 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     border: 1px solid #ededed;
   }
   .td_top_authors .td_mod_wrap:hover .td-author-post-count {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td_top_authors .td_mod_wrap:hover .td-author-comments-count {
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.8;
   }
   .td_top_authors .td_mod_wrap:hover .td-authors-name a {
-    color: #123c69;
+    color: #286da8;
   }
   .td_top_authors .block-title {
     margin-bottom: 16px;
@@ -10774,7 +10774,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-2 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-3 .td-related-title a {
     margin-right: 10px;
@@ -10787,7 +10787,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-3 .td-related-title .td-cur-simple-item {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .global-block-template-4 .td-related-title a {
     /* responsive portrait phone */
@@ -10802,10 +10802,10 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     border-color: transparent !important;
   }
   .global-block-template-4 .td-related-title .td-cur-simple-item {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .global-block-template-4 .td-related-title .td-cur-simple-item:before {
-    border-color: #123c69 transparent transparent transparent !important;
+    border-color: #286da8 transparent transparent transparent !important;
   }
   .global-block-template-5 .td-related-title a {
     /* responsive portrait phone */
@@ -10819,7 +10819,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     border: none;
   }
   .global-block-template-5 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-6 .td-related-title a {
     padding: 10px 10px 0 10px;
@@ -10831,10 +10831,10 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-6 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-7 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-8 .td-related-title a {
     /* responsive portrait phone */
@@ -10848,7 +10848,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     display: none;
   }
   .global-block-template-8 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-9 .td-related-title {
     margin-top: 0 !important;
@@ -10863,7 +10863,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-9 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-10 .td-related-title {
     margin-top: 0 !important;
@@ -10878,7 +10878,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-10 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-11 .td-related-title a {
     margin-right: 20px;
@@ -10890,7 +10890,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-11 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-12 .td-related-title a,
   .global-block-template-13 .td-related-title a {
@@ -10906,7 +10906,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .global-block-template-12 .td-related-title .td-cur-simple-item,
   .global-block-template-13 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-12 .td-related-title > a.td-related-left,
   .global-block-template-13 .td-related-title > a.td-related-left,
@@ -10940,7 +10940,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .global-block-template-14 .td-related-title .td-cur-simple-item,
   .global-block-template-15 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-16 .td-related-title a {
     margin-right: 20px;
@@ -10952,7 +10952,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-16 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .global-block-template-17 .td-related-title a {
     margin-right: 10px;
@@ -10966,7 +10966,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .global-block-template-17 .td-related-title .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter {
     font-family: 'Roboto', sans-serif;
@@ -11008,10 +11008,10 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover i {
-    color: #123c69;
+    color: #286da8;
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover ul {
     display: block;
@@ -11036,7 +11036,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin: 0;
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-item .td-cur-simple-item {
-    color: #123c69;
+    color: #286da8;
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-more {
     padding-bottom: 10px;
@@ -11068,7 +11068,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-link:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-pb-span4 .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option span {
     /* responsive portrait tablet */
@@ -11158,7 +11158,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td_block_template_5 .td-block-title > * {
     padding: 0 12px;
-    border-left: 4px solid #123c69;
+    border-left: 4px solid #286da8;
   }
   .td_block_template_5 .td-subcat-filter,
   .td_block_template_5 .td-subcat-dropdown {
@@ -11309,7 +11309,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td_block_template_9 .td-block-title > * {
     color: #000;
@@ -11704,7 +11704,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #123c69;
+    background-color: #286da8;
     z-index: 1;
   }
   .td_block_template_15 .td-block-title:after {
@@ -11917,7 +11917,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     height: 3px;
     top: 0;
     left: -1px;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-pulldown-syle-2 .td-subcat-dropdown a {
     padding-left: 40px;
@@ -11928,7 +11928,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-pulldown-syle-2 .td-subcat-dropdown:hover .td-subcat-more span,
   .td-pulldown-syle-2 .td-subcat-dropdown:hover .td-subcat-more i {
-    color: #123c69;
+    color: #286da8;
   }
   .td-pulldown-syle-2 .td-subcat-dropdown .td-subcat-more {
     margin-left: 9px;
@@ -11954,7 +11954,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-pulldown-syle-3 .td-subcat-dropdown:hover .td-subcat-more span,
   .td-pulldown-syle-3 .td-subcat-dropdown:hover .td-subcat-more i {
-    color: #123c69;
+    color: #286da8;
   }
   .td-pulldown-syle-3 .td-subcat-dropdown .td-subcat-more {
     margin-left: 9px;
@@ -12545,8 +12545,8 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-post-small-box a:hover {
     color: #fff;
-    background-color: #123c69;
-    border-color: #123c69;
+    background-color: #286da8;
+    border-color: #286da8;
   }
   .td-tags {
     margin: 0 0 30px 0;
@@ -12589,7 +12589,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-bottom: 43px;
   }
   .td-post-next-prev-content a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-post-next-post {
     text-align: right;
@@ -12611,7 +12611,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-bottom:10px;
     box-shadow:0 0 3px 2px #acacac;
     -webkit-box-shadow:0 0 3px 2px #acacac;
-    border-bottom:4px solid #123c69;
+    border-bottom:4px solid #286da8;
     /* responsive portrait phone */
   }
   @media (max-width: 767px) {
@@ -12652,7 +12652,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-top: 11px;
   }
   .author-box-wrap .td-author-social a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .author-box-wrap .td-author-social .td-icon-font {
     font-size: 15px;
@@ -12673,7 +12673,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #222;
   }
   .td-author-name a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-author-url {
     font-size: 11px;
@@ -12685,7 +12685,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #444;
   }
   .td-author-url a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   /*  ----------------------------------------------------------------------------
       Related / similar articles
@@ -12839,7 +12839,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .td_block_template_1 .td-related-title .td-cur-simple-item {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
   }
   .td_block_template_1 .td-related-title .td-cur-simple-item:hover {
@@ -12877,7 +12877,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .td_mod_related_posts:hover h3 > a {
-    color: #123c69;
+    color: #286da8;
   }
   .td-parallax-header {
     margin-bottom: 60px;
@@ -13528,11 +13528,11 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-post-template-11 .td-related-title .td-related-left:hover,
   .td-post-template-11 .td-related-title .td-related-right:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-post-template-11 .td-related-title .td-cur-simple-item {
     background-color: transparent;
-    color: #123c69;
+    color: #286da8;
   }
   .td-post-template-11 .td-related-span4 {
     margin-top: 12px;
@@ -13555,7 +13555,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .td-post-template-11 .td_block_related_posts .td-next-prev-wrap a:hover {
     background-color: transparent;
     border: none;
-    color: #123c69;
+    color: #286da8;
   }
   .td-post-template-11 .td_mod_related_posts .td-module-title {
     margin-bottom: 0;
@@ -13731,7 +13731,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #b4b4b4;
   }
   .comment-reply-link:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .single .comments {
     margin-bottom: 48px;
@@ -13758,7 +13758,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     /* responsive portrait phone */
   }
   .logged-in-as a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   @media (max-width: 767px) {
     .logged-in-as a:last-child {
@@ -13773,7 +13773,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-left: 10px;
   }
   #cancel-comment-reply-link:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .comment .comment-form-input-wrap {
     margin-top: 0;
@@ -14045,7 +14045,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-404-sub-sub-title a:hover {
     color: #fff;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-404-head {
     text-align: center;
@@ -14079,7 +14079,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
       Search page
   */
   .td-search-query {
-    color: #123c69;
+    color: #286da8;
   }
   .search-page-search-wrap {
     margin: 37px 0 51px 0;
@@ -14099,7 +14099,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin: 0;
   }
   .td-search-form-widget .wpb_button:hover {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-search-form-widget div {
     text-align: left;
@@ -14193,13 +14193,13 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     }
   }
   .page-nav .current {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
-    border-color: #123c69;
+    border-color: #286da8;
   }
   .page-nav:first-child > div {
     padding: 5px 11px;
-    border: 1px solid #123c69;
+    border: 1px solid #286da8;
     display: inline-block;
     margin: 0 8px 8px 0;
     min-width: 33px;
@@ -14207,7 +14207,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #fff;
     line-height: 21px;
     float: left;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .page-nav .td-icon-menu-right {
     padding-left: 1px;
@@ -14302,7 +14302,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-rating-bar-wrap div {
     height: 20px;
-    background-color: #123c69;
+    background-color: #286da8;
     max-width: 100%;
   }
   .td-review-row-bars .td-review-desc {
@@ -14918,7 +14918,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     text-transform: none;
   }
   .td-category-header .td-pulldown-category-filter-link:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-category-description {
     width: 90%;
@@ -15030,11 +15030,11 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     font-size: 10px;
   }
   .td-category-siblings .td-subcat-dropdown a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-category-siblings .td-subcat-dropdown a.td-current-sub-category {
     background-color: transparent;
-    color: #123c69;
+    color: #286da8;
   }
   .td-js-loaded .td-category-siblings {
     opacity: 1;
@@ -15230,7 +15230,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-bottom: 0;
   }
   .td_category_template_3 .td-current-sub-category {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td_category_template_3 .td-category-pulldown-filter {
     top: 83px;
@@ -15301,8 +15301,8 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     padding: 3px 7px 4px 7px;
   }
   .td_category_template_4 .td-category-siblings .td-category a:hover {
-    border-color: #123c69;
-    background-color: #123c69;
+    border-color: #286da8;
+    background-color: #286da8;
     color: #fff;
   }
   .td_category_template_4 .td-category-siblings .td-category .td-current-sub-category {
@@ -15724,8 +15724,8 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     opacity: 1;
   }
   .td_category_template_8 .td-category-header .td-category a.td-current-sub-category {
-    background-color: #123c69;
-    border-color: #123c69;
+    background-color: #286da8;
+    border-color: #286da8;
     color: #fff;
   }
   .td_category_template_8 .td-crumb-container {
@@ -17817,7 +17817,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #111;
   }
   .widget a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .widget ul {
     list-style: none;
@@ -17847,7 +17847,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .archive .widget_archive .current,
   .archive .widget_archive .current a {
-    color: #123c69;
+    color: #286da8;
   }
   .widget_calendar {
     margin-bottom: 36px;
@@ -17899,7 +17899,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     text-align: right;
   }
   .widget_calendar tfoot a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .widget_categories li span {
     float: right;
@@ -17951,7 +17951,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #111;
   }
   .td_wp_recentcomments a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .widget_recent_entries {
     margin-bottom: 32px;
@@ -18002,7 +18002,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     display: none;
   }
   .widget_rss .block-title a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .widget_rss .block-title .rsswidget {
     color: #fff;
@@ -19304,7 +19304,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     right: 5px;
     width: 40px;
     height: 40px;
-    background-color: #123c69;
+    background-color: #286da8;
     z-index: 9999;
     transform: translate3d(0, 70px, 0);
     -webkit-transform: translate3d(0, 70px, 0);
@@ -19439,7 +19439,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .td-live-theme-demos .td-skin-buy a {
     display: inline-block;
     color: #fff;
-    background-color: #123c69;
+    background-color: #286da8;
     padding: 12px 36px;
     border-radius: 2px;
     margin: 26px 0;
@@ -20357,7 +20357,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: relative;
   }
   .td_wrapper_video_playlist .td_video_controls_playlist_wrapper {
-    background-color: #123c69;
+    background-color: #286da8;
     position: relative;
   }
   .td_wrapper_video_playlist .td_video_controls_playlist_wrapper:before {
@@ -20435,7 +20435,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: absolute;
     top: 0;
     left: 0;
-    border-left: 3px solid #123c69 !important;
+    border-left: 3px solid #286da8 !important;
     width: 3px;
     height: inherit;
   }
@@ -20961,7 +20961,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container {
     margin-bottom: 26px !important;
     margin-right: 0;
-    border-bottom: 2px solid #123c69;
+    border-bottom: 2px solid #286da8;
     display: block;
   }
   .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tabs-list {
@@ -20973,7 +20973,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab.vc_active > a,
   .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab:hover > a {
     border-color: transparent;
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
   }
   .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab > a {
@@ -21177,20 +21177,20 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     transition: all 0.2s ease;
   }
   a.vc_btn-black:hover {
-    background-color: #123c69;
-    border-color: #123c69;
-    color: #123c69;
+    background-color: #286da8;
+    border-color: #286da8;
+    color: #286da8;
   }
   a.vc_btn-black.vc_btn_square_outlined:hover,
   a.vc_btn-black.vc_btn_outlined:hover {
-    color: #123c69 !important;
+    color: #286da8 !important;
   }
   .wpb_default {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .wpb_default:hover {
     text-shadow: none;
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.8;
     -webkit-transition: opacity 0.4s;
     -moz-transition: opacity 0.4s;
@@ -21415,7 +21415,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-smart-list-button:hover {
     text-decoration: none !important;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-smart-list-button .td-icon-left {
     font-size: 14px;
@@ -21552,7 +21552,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-smart-list-dropdown-wrap .td-smart-list-button:hover {
     background-color: transparent !important;
-    color: #123c69;
+    color: #286da8;
   }
   .td-smart-list-dropdown-wrap .td-smart-list-button span {
     /* responsive portrait phone */
@@ -21637,7 +21637,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   .td-left-smart-list:hover,
   .td-right-smart-list:hover {
     text-decoration: none !important;
-    background-color: #123c69;
+    background-color: #286da8;
   }
   @-moz-document url-prefix() {
     .td-left-smart-list,
@@ -22364,7 +22364,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: absolute;
     top: -2px;
     left: 0;
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.2;
   }
   .td-weather-information i {
@@ -22405,7 +22405,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.07;
   }
   .td-weather-days {
@@ -22989,7 +22989,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .td-instagram-user a {
     line-height: 26px;
-    color: #123c69;
+    color: #286da8;
   }
   .td-instagram-user a:hover {
     text-decoration: none !important;
@@ -23170,7 +23170,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.07;
     z-index: -1;
   }
@@ -23516,7 +23516,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   #buddypress input[type=reset]:focus,
   #buddypress div.generic-button a:focus,
   #buddypress .comment-reply-link:focus {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
     border: none;
   }
@@ -23642,7 +23642,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   #buddypress a.button:active span,
   a.bp-title-button:active span,
   #buddypress ul.button-nav li a:active span {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   #buddypress ul.button-nav li.current a {
     background-color: #222;
@@ -23684,7 +23684,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   #buddypress .standard-form #submit:focus,
   #buddypress .standard-form #save:focus,
   #group-settings-form input[type=submit]:focus {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #fff;
   }
   #buddypress a.loading,
@@ -23798,7 +23798,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   #buddypress div.item-list-tabs ul li.selected a span,
   #buddypress div.item-list-tabs ul li.current a span {
-    background: #123c69;
+    background: #286da8;
   }
   #buddypress ul.item-list li div.item-title,
   #buddypress ul.item-list li h4 {
@@ -23823,7 +23823,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     height: 20px;
   }
   #buddypress div.item-list-tabs ul li > a span {
-    background: #123c69;
+    background: #286da8;
     border-radius: 0;
     border: transparent;
     color: #fff;
@@ -23839,7 +23839,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     background-color: #f7f7f7;
   }
   #buddypress div.item-list-tabs ul li > a:hover span {
-    background-color: #123c69;
+    background-color: #286da8;
     opacity: 0.8;
   }
   @media (max-width: 767px) {
@@ -23879,10 +23879,10 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #fff !important;
   }
   .item-list-tabs .feed:hover {
-    border-color: #123c69 !important;
+    border-color: #286da8 !important;
   }
   .item-list-tabs .feed:hover a {
-    background-color: #123c69 !important;
+    background-color: #286da8 !important;
   }
   /*  ----------------------------------------------------------------------------
       Activity Page
@@ -24060,7 +24060,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #222;
   }
   #buddypress table.forum tr td.td-title a.topic-title:hover {
-    color: #123c69;
+    color: #286da8;
   }
   #buddypress table.forum p.topic-meta {
     font-size: 10px;
@@ -24071,7 +24071,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #222;
   }
   #buddypress table.forum p.topic-meta a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   #buddypress table.forum .td-freshness p.topic-meta {
     margin: 5px 0 0 0;
@@ -24156,7 +24156,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #222;
   }
   #buddypress ul.item-list li div.item-title a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   #buddypress ul.item-list li div.item-meta span {
     font-size: 11px;
@@ -24628,7 +24628,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     margin-left: 0;
   }
   .td-footer-wrapper .td-post-category {
-    background-color: #123c69;
+    background-color: #286da8;
   }
   .td-footer-wrapper .td-post-category:hover {
     opacity: 0.8;
@@ -24688,7 +24688,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     padding: 21px 0;
   }
   .footer-text-wrap .footer-email-wrap a {
-    color: #123c69;
+    color: #286da8;
   }
   .footer-text-wrap {
     font-family: 'Open Sans', arial, sans-serif;
@@ -25001,7 +25001,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
     color: #ccc;
   }
   .td-subfooter-menu li a:hover {
-    color: #123c69;
+    color: #286da8;
   }
   .td-subfooter-menu li:last-child a {
     margin-right: 0;
@@ -25845,7 +25845,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .ie8 .td-grid-style-2 .td-big-grid-post-0 .td-module-thumb a,
   .ie8 .td-grid-style-3 .td-big-grid-post-0 .td-module-thumb a {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#123c69', endColorstr='#4a8f5e', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#286da8', endColorstr='#4a8f5e', GradientType=1);
   }
   .ie8 .td-grid-style-2 .td-big-grid-post-1 .td-module-thumb a,
   .ie8 .td-grid-style-3 .td-big-grid-post-1 .td-module-thumb a {
@@ -25869,7 +25869,7 @@ url : http://blog.visme.co/website-color-schemes/ number 15
   }
   .ie8 .td-grid-style-2 .td-big-grid-post-6 .td-module-thumb a,
   .ie8 .td-grid-style-3 .td-big-grid-post-6 .td-module-thumb a {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#123c69', endColorstr='#4a8f5e', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#286da8', endColorstr='#4a8f5e', GradientType=1);
   }
   .ie8 .td-grid-style-4 .entry-title {
     background-color: transparent;
@@ -27134,7 +27134,7 @@ Version:        7.7c
     for custom CSS.
 */
 .td-header-wrap .td-header-menu-wrap-full, .sf-menu > .current-menu-ancestor > a, .sf-menu > .current-category-ancestor > a, .td-header-menu-wrap.td-affix, .td-header-style-3 .td-header-main-menu, .td-header-style-3 .td-affix .td-header-main-menu, .td-header-style-4 .td-header-main-menu, .td-header-style-4 .td-affix .td-header-main-menu, .td-header-style-8 .td-header-menu-wrap.td-affix, .td-header-style-8 .td-header-top-menu-full {
-    background-color: #123c69;
+    background-color: #286da8;
 }
 .kategory {
     list-style: none;
@@ -27161,7 +27161,7 @@ TEMPLATE STYLE GEOTIMES 1
 .template-geotimes-1 .kategory {
     margin-left: 0px;
     padding-left:10px;
-    border-left: 2px solid #123c69;
+    border-left: 2px solid #286da8;
 }
 .template-geotimes-1 .kategory li {
   display: inline-block;
@@ -27170,11 +27170,11 @@ TEMPLATE STYLE GEOTIMES 1
     color:#000000;
 }
 .template-geotimes-1 .td-post-author-name a {
-    color:#123c69;
+    color:#286da8;
     text-transform: uppercase;
 }
 .template-geotimes-1 .subtitle {
-    background-color: #123c69;
+    background-color: #286da8;
     color: #ffffff;
 }
 .template-geotimes-1 .td-post-comments {
@@ -27230,15 +27230,15 @@ TEMPLATE STYLE GEOTIMES 1
 
 
 .related-artikel {
-  border-top:2px solid #123c69;
-  border-bottom:2px solid #123c69;
+  border-top:2px solid #286da8;
+  border-bottom:2px solid #286da8;
 }
 .td_block_related_posts_geotimes {
   margin-bottom:0px;
 }
 .td_block_related_posts_geotimes .title {
   margin:10px 0px;
-  color:#123c69;
+  color:#286da8;
   font-weight:bold;
 }
 .td_block_related_posts_geotimes .td-block-title,
@@ -27300,14 +27300,14 @@ TEMPLATE STYLE GEOTIMES 1
 /* 1024px setting */
 @media screen and (max-width:1028px) {
   .td_block_related_posts_geotimes .td-block-title {
-    border-bottom   :2px solid #123c69;
+    border-bottom   :2px solid #286da8;
   }
   .td_block_related_posts_geotimes .td-block-title a {
     width:100%;
     text-align :left;
   }
   .template-geotimes-1 .kategory {
-    border-bottom: 2px solid #123c69;
+    border-bottom: 2px solid #286da8;
     border-left: none;
     padding-left:0px;
   }
@@ -27425,7 +27425,7 @@ TEMPLATE STYLE GEOTIMES 1
 
 .td_block_related_footer_geotimes .title {
   font-weight:bold;
-  color:#123c69;
+  color:#286da8;
   margin:0;
 }
 .td_block_related_footer_geotimes .td-subcat-list a {
@@ -27451,18 +27451,18 @@ TEMPLATE STYLE GEOTIMES 1
   margin-bottom:20px;
 }
 .td_block_related_footer_geotimes .filter .td-subcat-filter {
-  border-bottom:2px solid #123c69;
+  border-bottom:2px solid #286da8;
 }
 .td_block_related_footer_geotimes .td-subcat-item {
   margin-left:0px !important;
 }
 .td_block_related_footer_geotimes .td-subcat-filter .td-subcat-list a:hover {
-  background-color: #123c69;
+  background-color: #286da8;
   color:#ffffff;
 }
 
 .opini-artikel {
-  border-bottom:2px solid #123c69;
+  border-bottom:2px solid #286da8;
 }
 .opini-artikel .container {
   padding:10px 0px;
@@ -27722,7 +27722,7 @@ footer .widget {
 }
 
 .sub-footer-menu {
-  background-color: #ac3b61;
+  background-color: #cd5360;
 }
 
 .custom-footer,
@@ -27919,7 +27919,7 @@ footer .widget {
   background-color: #bab2b5;
 }
 .footer-bottom {
-  background-color: #123c69;
+  background-color: #286da8;
 }
 
 
