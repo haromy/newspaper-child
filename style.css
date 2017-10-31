@@ -782,22 +782,35 @@ footer .widget {
 .authorcol {
   margin:10px 0px;
 }
-.author-box .avatar {
-  float:left;
-  padding:3px;
-  border-radius:50%;
-}
-.author-box .meta-desc {
-  padding-top:3px;
-  padding-left:80px;
-  min-height:120px;
-  padding-right:5px;
-}
 .author-box {
   background-color:#efefef;
   border-radius:5px;
+  margin:0px;
 }
 .excerpt-desc {
   font-size:12px;
   line-height: 14px;
+}
+
+.author-box .avatar {
+  margin-bottom:-3px;
+  padding:0px;
+}
+.author-box .meta-desc {
+  padding:0px 5px;
+}
+
+.author-box .meta-desc .nama {
+  color:#000000;
+  font-family:dinprobold;
+  font-size:14px;
+}
+.center {
+  text-align:center;
+}
+.center .page-numbers {
+  font-family:dinproregular;
+}
+.center .current {
+  font-size:18px;
 }
