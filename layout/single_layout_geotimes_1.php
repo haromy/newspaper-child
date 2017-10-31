@@ -17,7 +17,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
         <article id="post-<?php echo $td_mod_single->post->ID;?>" class="<?php echo join(' ', get_post_class());?>" <?php echo $td_mod_single->get_item_scope();?>>
             <div class="post-header">
                 <!-- breadcrumb -->
-                <div class="container">
+                <div class="container breadcrumb">
                     <div class="row">
                         <div class="col">
                             <div class="td-crumb-container"><?php echo td_page_generator::get_single_breadcrumbs($td_mod_single->title); ?></div>
@@ -31,7 +31,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                     </div>
                 </div>
                 <!-- judul artikel -->
-                <div class="container">
+                <div class="container headpost">
                     <div class="row">
                         <div class="col-xl-2">
                             <?php echo $td_mod_single->get_category_geotimes(); ?>
@@ -48,7 +48,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                     </div>
                 </div>
                 <!-- subtitle + featured image -->
-                <div class="container-fluid">
+                <div class="container-fluid sub-meta">
                     <div class="row subtitle">
                         <div class="container">
                             <div class="row">
@@ -61,20 +61,20 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="td-post-content">
-                                <?php
-                                if (!empty(td_global::$load_featured_img_from_template)) {
-                                    echo $td_mod_single->get_image(td_global::$load_featured_img_from_template);
-                                } else {
-                                    echo $td_mod_single->get_image('td_696x385');
-                                }
-                                ?>
+                    <div class="container featured-image">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="td-post-content">
+                                    <?php
+                                    if (!empty(td_global::$load_featured_img_from_template)) {
+                                        echo $td_mod_single->get_image(td_global::$load_featured_img_from_template);
+                                    } else {
+                                        echo $td_mod_single->get_image('td_696x385');
+                                    }
+                                    ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

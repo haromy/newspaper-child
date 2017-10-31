@@ -14,7 +14,7 @@ Version:        7.7c
     for custom CSS.
 */
 .td-header-wrap .td-header-menu-wrap-full, .sf-menu > .current-menu-ancestor > a, .sf-menu > .current-category-ancestor > a, .td-header-menu-wrap.td-affix, .td-header-style-3 .td-header-main-menu, .td-header-style-3 .td-affix .td-header-main-menu, .td-header-style-4 .td-header-main-menu, .td-header-style-4 .td-affix .td-header-main-menu, .td-header-style-8 .td-header-menu-wrap.td-affix, .td-header-style-8 .td-header-top-menu-full {
-    background-color: #811a52;
+    background-color: #88bbd6;
 }
 .kategory {
     list-style: none;
@@ -38,7 +38,7 @@ TEMPLATE STYLE GEOTIMES 1
 .template-geotimes-1 .kategory {
     margin-left: 0px;
     padding-left:10px;
-    border-left: 2px solid #811a52;
+    border-left: 2px solid #88bbd6;
 }
 .template-geotimes-1 .kategory li {
   display: inline-block;
@@ -47,11 +47,11 @@ TEMPLATE STYLE GEOTIMES 1
     color:#000000;
 }
 .template-geotimes-1 .td-post-author-name a {
-    color:#811a52;
+    color:#88bbd6;
     text-transform: uppercase;
 }
 .template-geotimes-1 .subtitle {
-    background-color: #811a52;
+    background-color: #88bbd6;
     color: #ffffff;
 }
 .template-geotimes-1 .td-post-comments {
@@ -85,8 +85,8 @@ TEMPLATE STYLE GEOTIMES 1
 
 
 .related-artikel {
-  border-top:2px solid #811a52;
-  border-bottom:2px solid #811a52;
+  border-top:2px solid #88bbd6;
+  border-bottom:2px solid #88bbd6;
   background-color:#f3f3f3;
 }
 .td_block_related_posts_geotimes {
@@ -94,7 +94,7 @@ TEMPLATE STYLE GEOTIMES 1
 }
 .td_block_related_posts_geotimes .title {
   margin:10px 0px;
-  color:#811a52;
+  color:#88bbd6;
   font-weight:bold;
 }
 .td_block_related_posts_geotimes .td-block-title,
@@ -156,14 +156,14 @@ TEMPLATE STYLE GEOTIMES 1
 /* 1024px setting */
 @media screen and (max-width:1028px) {
   .td_block_related_posts_geotimes .td-block-title {
-    border-bottom   :2px solid #811a52;
+    border-bottom   :2px solid #88bbd6;
   }
   .td_block_related_posts_geotimes .td-block-title a {
     width:100%;
     text-align :left;
   }
   .template-geotimes-1 .kategory {
-    border-bottom: 2px solid #811a52;
+    border-bottom: 2px solid #88bbd6;
     border-left: none;
     padding-left:0px;
   }
@@ -281,7 +281,7 @@ TEMPLATE STYLE GEOTIMES 1
 
 .td_block_related_footer_geotimes .title {
   font-weight:bold;
-  color:#811a52;
+  color:#88bbd6;
   margin:0;
 }
 .td_block_related_footer_geotimes .td-subcat-list a {
@@ -307,19 +307,19 @@ TEMPLATE STYLE GEOTIMES 1
   margin-bottom:20px;
 }
 .td_block_related_footer_geotimes .filter .td-subcat-filter {
-  border-bottom:2px solid #811a52;
+  border-bottom:2px solid #88bbd6;
 }
 .td_block_related_footer_geotimes .td-subcat-item {
   margin-left:0px !important;
 }
 .td_block_related_footer_geotimes .td-subcat-filter .td-subcat-list a:hover {
-  background-color: #811a52;
+  background-color: #88bbd6;
   color:#ffffff;
 }
 
 .opini-artikel {
   padding:10px 0px;
-  border-bottom:2px solid #811a52;
+  border-bottom:2px solid #88bbd6;
   background-color:#dcdcdc;
 }
 
@@ -577,7 +577,7 @@ footer .widget {
 }
 
 .sub-footer-menu {
-  background-color: #6A0F45;
+  background-color: #88bbd6;
 }
 
 .custom-footer,
@@ -646,7 +646,7 @@ footer .widget {
     position: inherit;
     width: 100%;
     height: 50px;
-    background-color: #891b58;
+    background-color: #99d3df;
     transform: none;
 }
 
@@ -771,10 +771,10 @@ footer .widget {
 }
 
 .footer-top {
-  background-color: #891b58;
+  background-color: #99d3df;
 }
 .footer-bottom {
-  background-color: #333333;
+  background-color: #cdcdcd;
 }
 
 

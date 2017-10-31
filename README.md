@@ -37,3 +37,4 @@ additional task list
 - [x] adding custom author page layout 1 & layout 2 (30/10/2017)
 - [x] remove author layout 1 (31/10/2017)
 - [x] edit autor page list layout (31/10/2017)
+- [x] add ccs style 15 (Elegant Yet Approachable) (31/10/2017)
