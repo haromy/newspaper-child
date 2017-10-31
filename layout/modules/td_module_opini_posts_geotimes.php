@@ -54,9 +54,7 @@ class td_module_opini_posts_geotimes extends td_module {
                 <?php echo $this->get_title_related();?>
             </div>
             <div class="card-footer row">
-                <div class="col-12"><?php echo $this->get_author();?></div>
-                <div class="col-6"><?php echo $this->get_date();?></div>
-                <div class="col-6"><?php echo $this->get_views();?></div>
+                <div class="col-12"><?php echo $this->get_date();?></div>
             </div>
         </div>
 

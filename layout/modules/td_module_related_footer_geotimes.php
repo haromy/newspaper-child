@@ -54,7 +54,6 @@ class td_module_related_footer_geotimes extends td_module {
                 </div>
                 <div class="card-footer row">
                     <div class="col-12">
-                        <?php echo $this->get_author();?>
                         <?php echo $this->get_date();?>
                     </div>
                 </div>
