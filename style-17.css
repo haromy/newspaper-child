@@ -27242,6 +27242,13 @@ TEMPLATE STYLE GEOTIMES 1
 .template-geotimes-1 .card {
   background-color:#ebebeb;
 }
+.template-geotimes-1 .mgid .container {
+  background-color:#ebebeb;
+  padding:10px 0px;
+}
+.template-geotimes-1 .mgid {
+  border-top:2px solid #750b28;
+}
 
 .single_layout_geotimes_1 .td-post-sharing {
   padding:10px 0px;
