@@ -26872,7 +26872,7 @@ url :
   *********************/
   
   .td_module_sidebar {
-    padding-bottom: 15px;
+    padding: 5px 0px;
   }
   
   .td_module_sidebar .td-module-title {
@@ -26882,8 +26882,9 @@ url :
   }
   
   .td_module_sidebar .custom-post-count {
-    font-size: 18px;
+    font-size: 26px;
     color: #891b57;
+    margin-top:2px;
   }
   
   .custom-popular {

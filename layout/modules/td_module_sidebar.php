@@ -11,17 +11,14 @@ class td_module_sidebar extends td_module {
         ob_start();
         ?>
 
-        <div class="<?php echo $this->get_module_classes();?>">
-            
-            <div class="custom-post-count">
-                <?php echo $td_post_count; ?>
+        <div class="<?php echo $this->get_module_classes();?> row">
+            <div class="col-1"><div class="custom-post-count"><?php echo $td_post_count; ?></div></div>
+            <div class="col-11">
+                <?php echo $this->get_title();?>
+                <div class="td-module-meta-info">
+                    <?php echo $this->get_author();?>
+                </div>
             </div>
-            <?php echo $this->get_title();?>
-            <div class="td-module-meta-info">
-                <?php echo $this->get_author();?>
-            </div>
-            <?php echo $this->get_quotes_on_blocks(); ?>
-
         </div>
 
         <?php return ob_get_clean();
