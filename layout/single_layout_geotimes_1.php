@@ -63,7 +63,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                     </div>
                     <div class="container featured-image">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-lg-8">
                                 <div class="td-post-content">
                                     <?php
                                     if (!empty(td_global::$load_featured_img_from_template)) {
@@ -73,6 +73,10 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                     }
                                     ?>
                                 </div>
+                            </div>
+                            <div class="col-lg-4 hidden-md-down">
+                                <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
+                                <div class="postingpoliklitik"></div>
                             </div>
                         </div>
                     </div>
@@ -135,6 +139,38 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                     <?php comments_template('', true);?>
                                 </div>
                             </div>
+                            </div>
+                            <div class="container-fluid mgid">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-12">
+                                    <!-- Composite Start -->
+                                        <div id="M284964ScriptRootC172279">
+                                                <div id="M284964PreloadC172279">
+                                                Loading...
+                                            </div>
+                                                <script>
+                                                        (function(){
+                                                    var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById';
+                                                    var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M284964ScriptRootC172279")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
+                                                    catch(e){var iw=d;var c=d[gi]("M284964ScriptRootC172279");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=172279;c[ac](dv);
+                                                    var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src="//jsc.mgid.com/g/e/geotimes.co.id.172279.js?t="+D.getYear()+D.getMonth()+D.getDate()+D.getHours();c[ac](s);})();
+                                            </script>
+                                        </div>
+                                        <!-- Composite End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="container">
+                                        <div class="col hidden-md-up">
+                                        <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
+                                        <div class="postingpoliklitik"></div>
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="container-fluid related-artikel">
                                 <div class="row">

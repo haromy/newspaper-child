@@ -74,7 +74,7 @@ class td_block_homepage_card_23 extends td_block {
                     case '2': //two column layout
                         $buffy .= $td_block_layout->open_row();
                         $buffy .= $td_block_layout->open4();
-                        $buffy .= $td_module_card->render('show','show');
+                        $buffy .= $td_module_card->render('show','hide');
                         $buffy .= $td_block_layout->close4();
                         if ($td_post_count == 6) {
                             $buffy .= $td_block_layout->close_row();
