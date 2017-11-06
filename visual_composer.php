@@ -231,6 +231,21 @@ class geotimes_custom {
             )
         );
 
+        // module untuk kategori
+        td_api_module::add('td_module_category',
+            array(
+                'file' => $this->plugin_path . "/layout/modules/td_module_category.php",
+                'text' => 'Module Category',
+                'excerpt_title' => 12,
+                'excerpt_content' => 25,
+                'enabled_on_more_articles_box' => true,
+                'enabled_on_loops' => true,
+                'uses_columns' => true, // if the module uses columns on the page template + loop
+                'category_label' => true,
+                'class' => 'td_module_wrap td-animation-stack td_module_category',
+            )
+        );
+
         // blok card 2 x 3
         td_api_block::add('td_block_homepage_card_23',
             array(

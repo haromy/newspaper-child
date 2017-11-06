@@ -1,6 +1,6 @@
 <?php
 
-class td_module_related_posts_geotimes extends td_module {
+class td_module_category extends td_module {
 
     function get_image_geotimes($thumbType, $css_image = false) {
         $buffy = ''; //the output buffer
@@ -163,96 +163,32 @@ class td_module_related_posts_geotimes extends td_module {
         }
     }
 
-    function get_title_geotimes($nomer,$cut_at = '') {
-        $buffy = '';
-        $buffy .= '<div class="card-title">';
-        $buffy .='<a href="' . $this->href . '" rel="bookmark" title="' . $this->title_attribute . '">';
-
-        if ($nomer == 1 || $nomer == 4 || $nomer == 5) {
-            $buffy .='<a href="' . $this->href . '" rel="bookmark" title="' . $this->title_attribute . '" style="color:#000000;">';
-        }
-        else {
-            $buffy .='<a href="' . $this->href . '" rel="bookmark" title="' . $this->title_attribute . '" style="color:#ffffff;">';
-        }
-
-        if ($cut_at != '') {
-            $buffy .= td_util::excerpt($this->title, $cut_at, 'show_shortcodes');
-
-        } else {
-            $current_module_class = get_class($this);
-            if (td_api_module::_helper_check_excerpt_title($current_module_class)) {
-                $db_title_excerpt = td_util::get_option($current_module_class . '_title_excerpt');
-                if ($db_title_excerpt != '') {
-                    $buffy .= td_util::excerpt($this->title, $db_title_excerpt, 'show_shortcodes');
-                } else {
-                    $module_api = td_api_module::get_by_id($current_module_class);
-                    $buffy .= td_util::excerpt($this->title, $module_api['excerpt_title'], 'show_shortcodes');
-                }
-            } else {
-                $buffy .= $this->title;
-            }
-
-        }
-        $buffy .='</a>';
-        $buffy .= '</div>';
-        return $buffy;
-    }
-    function get_author_geotimes() {
-        $buffy = '';
-
-        if ($this->is_review === false) {
-            if (td_util::get_option('tds_m_show_author_name') != 'hide') {
-                $buffy .= '<span class="td-post-author-name">';
-                $buffy .= '<a href="' . get_author_posts_url($this->post->post_author) . '">' . get_the_author_meta('display_name', $this->post->post_author) . '</a>' ;
-                if (td_util::get_option('tds_m_show_author_name') != 'hide' and td_util::get_option('tds_m_show_date') != 'hide') {
-                }
-                $buffy .= '</span>';
-            }
-
-        }
-        return $buffy;
-
-    }
-
     function __construct($post) {
         //run the parrent constructor
         parent::__construct($post);
     }
 
-    function render($nomer) {
+    function render() {
         ob_start();
         ?>
 
-        <div class="<?php echo $this->get_module_classes(array("card")); ?>">
-            <div class="card-img-top">
-                <?php
-                    if ($nomer <4) {
-                        echo $this->get_image_geotimes('td_218x150');
-                    }
-                ?>
-                <?php if (td_util::get_option('tds_category_module_related_posts') == 'yes') { echo $this->get_category(); }?>
+        <div class="<?php echo $this->get_module_classes();?>">
+            <div class="td-module-image">
+                <?php echo $this->get_image_geotimes('td_324x235');?>
+                <?php if (td_util::get_option('tds_category_module_3') == 'yes') { echo $this->get_category(); }?>
             </div>
-            <?php
-                if ($nomer == 1 || $nomer == 4 || $nomer == 5) {
-                    echo '<div class="card-block">';
-                }
-                else {
-                    echo '<div class="card-block purple">';
-                }
-            ?>
-                <?php echo $this->get_title_geotimes($nomer);?>
+            <?php echo $this->get_title();?>
+
+
+            <div class="td-module-meta-info">
+                <?php echo $this->get_author();?>
+                <?php echo $this->get_date();?>
             </div>
-            <?php
-                if ($nomer == 1 || $nomer == 4 || $nomer == 5) {
-                    echo '<div class="card-footer" style="color:#000000;">';
-                }
-                else {
-                    echo '<div class="card-footer purple" style="color:#ffffff;">';
-                }
-            ?>
-                <small class="text-muted"><?php echo $this->get_author_geotimes();?></small>
-            </div>
+
+            <?php echo $this->get_quotes_on_blocks();?>
+
         </div>
+
         <?php return ob_get_clean();
     }
 }

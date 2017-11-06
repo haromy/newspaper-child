@@ -38,6 +38,22 @@ class td_module_related_footer_geotimes extends td_module {
 
         return $buffy;
     }
+    function get_author_geotimes() {
+        $buffy = '';
+
+        if ($this->is_review === false) {
+            if (td_util::get_option('tds_m_show_author_name') != 'hide') {
+                $buffy .= '<span class="td-post-author-name">';
+                $buffy .= '<a href="' . get_author_posts_url($this->post->post_author) . '">' . get_the_author_meta('display_name', $this->post->post_author) . '</a>' ;
+                if (td_util::get_option('tds_m_show_author_name') != 'hide' and td_util::get_option('tds_m_show_date') != 'hide') {
+                }
+                $buffy .= '</span>';
+            }
+
+        }
+        return $buffy;
+
+    }
 
     function __construct($post) {
         //run the parrent constructor
@@ -54,7 +70,7 @@ class td_module_related_footer_geotimes extends td_module {
                 </div>
                 <div class="card-footer row">
                     <div class="col-12">
-                        <?php echo $this->get_date();?>
+                        <?php echo $this->get_author_geotimes();?>
                     </div>
                 </div>
             </div>

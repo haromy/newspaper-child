@@ -6,7 +6,7 @@
  */
 class td_block_headline_geomedia_1 extends td_block {
 
-    const POST_LIMIT = 7;
+    const POST_LIMIT = 9;
 
     function render($atts, $content = null){
         extract(shortcode_atts(
@@ -72,13 +72,14 @@ class td_block_headline_geomedia_1 extends td_block {
                         $buffy .= $td_module_card->render('show','hide');
                         $buffy.='</div>';
                     }
-                    if($post_count>6) {
+                    if($post_count==6) {
                         $buffy.='<div class="col-md-6 bawahkanan">';
-                        for($i==0;$i<3;$i++){
-                            $buffy .= $td_module_card->render('hide','hide');
-                        }
+                    }
+                    if($post_count>6) {
+                        $buffy .= $td_module_card->render('hide','hide');
+                    }
+                    if($post_count==9) {
                         $buffy.='</div></div>';
-                        break;
                     }
                     $post_count++;
                 }

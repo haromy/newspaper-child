@@ -1526,7 +1526,7 @@ url :
   .sf-menu > .current-category-ancestor > a,
   .sf-menu > li > a:hover,
   .sf-menu > .sfHover > a {
-    background-color: #7b011e;
+    background-color: #52616f;
     z-index: 999;
   }
   .td-affix .sf-menu > .current-menu-item > a,
@@ -2372,6 +2372,7 @@ url :
   }
   .top-bar-style-1 .td-header-sp-top-widget {
     float: right;
+    margin-right:10px;
   }
   #td-outer-wrap {
     overflow: hidden;
@@ -12174,7 +12175,7 @@ url :
   }
   .td-category a {
     color: #fff;
-    background-color: #D82E5B;
+    background-color: #6a7e90;
     padding: 3px 6px 4px 6px;
     white-space: nowrap;
     display: inline-block;
@@ -15216,9 +15217,9 @@ url :
     }
   }
   .td_category_template_3 .td-category-siblings .td-subcat-dropdown {
-    border-color: #db2c5c;
+    border-color: #6a7d8e;
     color: #fff;
-    background-color: #db2c5c;
+    background-color: #6a7d8e;
   }
   .td_category_template_3 .td-category-description p {
     margin-top: 19px;
@@ -16151,6 +16152,7 @@ url :
   }
   .td-social-icon-wrap:hover i.td-icon-facebook {
     color: #3B5998;
+    background-color:#ffffff;
   }
   .td-social-icon-wrap:hover i.td-icon-flickr {
     color: #ff0084;
@@ -16220,6 +16222,7 @@ url :
   }
   .td-social-icon-wrap:hover i.td-icon-twitter {
     color: #00aced;
+    background-color:#fff;
   }
   .td-social-icon-wrap:hover i.td-icon-vimeo {
     color: #5289cc;
@@ -16238,6 +16241,7 @@ url :
   }
   .td-social-icon-wrap:hover i.td-icon-youtube {
     color: #bb0000;
+    background-color: #fff;
   }
   @font-face {
     font-family: 'newspaper-icons';
@@ -27097,14 +27101,12 @@ url :
   }
   .td-social-icon-wrap i.td-icon-facebook, .td-social-icon-wrap i.td-icon-tumblr, 
   .td-social-icon-wrap i.td-icon-vk {
-    color: #3B5998;
     border: 1px solid #3B5998;
   }
   .td-social-icon-wrap i.td-icon-twitter, .td-social-icon-wrap i.td-icon-delicious,
   .td-social-icon-wrap i.td-icon-linkedin, .td-social-icon-wrap i.td-icon-paypal,
   .td-social-icon-wrap i.td-icon-skype, .td-social-icon-wrap i.td-icon-vimeo,
   .td-social-icon-wrap i.td-icon-windows {
-    color: #00aced;
     border: 1px solid #00aced;
   }
   .td-social-icon-wrap i.td-icon-yahoo {
@@ -27115,7 +27117,7 @@ url :
   .td-social-icon-wrap i.td-icon-lastfm, .td-social-icon-wrap i.td-icon-path,
   .td-social-icon-wrap i.td-icon-pinterest, 
   .td-social-icon-wrap i.td-icon-reddit {
-    color: #bb0000;
+    color: #ffffff;
     border: 1px solid #bb0000;
   }
   
@@ -27601,7 +27603,7 @@ footer .widget {
 }
 
 .sub-footer-menu ul {
-  margin:10px 0px 0px 0px;
+  margin:5px 0px;
 }
 .sub-footer-menu {
   border-top-left-radius:5px;
@@ -27866,6 +27868,15 @@ footer .widget {
 }
 .center .current {
     font-size:18px;
+}
+
+
+/* social media top bar style */
+span.td-social-icon-wrap .td-icon-font {
+  border-radius:50%;
+  height:30px;
+  padding-top:3px;
+  margin-top:2px;
 }
 
 /* mobile version */

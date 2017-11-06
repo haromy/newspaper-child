@@ -9,7 +9,6 @@
         <div class="row sub-footer-menu">
             <div class="col">
               <div class="row">
-                <div class="favicon"><img src="<?php echo $favicon;?>" style="width:30px"></div>
                 <?php
                   wp_nav_menu(array(
                     'theme_location' => 'footer-menu',
