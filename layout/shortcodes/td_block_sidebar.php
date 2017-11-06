@@ -7,13 +7,13 @@ class td_block_sidebar extends td_block {
         $custom_title = $this->get_att('custom_title');
         $custom_url = $this->get_att('custom_url');
         $buffy = '';
-        $buffy .= '<h4 class="custom-block-title">';
+        $buffy .= '<h2 class="custom-block-title">';
         if (!empty($custom_url)) {
             $buffy .= '<a href="' . esc_url($custom_url) . '" class="td-pulldown-size">' . esc_html($custom_title) . '</a>';
         } else {
             $buffy .= '<span class="td-pulldown-size">' . esc_html($custom_title) . '</span>';
         }
-        $buffy .= '</h4>';
+        $buffy .= '</h2>';
         return $buffy;
     }
     

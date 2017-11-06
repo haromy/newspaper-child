@@ -38,3 +38,8 @@ additional task list
 - [x] remove author layout 1 (31/10/2017)
 - [x] edit autor page list layout (31/10/2017)
 - [x] add ccs style 15 (Elegant Yet Approachable) (31/10/2017)
+- [x] bugfix block sidebar (31/10/2017)
+- [x] bugfix card style (01/11/2017)
+- [x] add promoted row in single layout (01/11/2017)
+- [x] add fetch wp api from another website in single layout (01/11/2017)
+- [x] add style css 18 (contemporary and bold) - #1a1a1d - #4e4e50 - #6f2232 - #950740 - #c3073f (01/11/2017)

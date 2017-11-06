@@ -754,6 +754,7 @@
 })(window.Zepto || window.jQuery);
 
 jQuery(document).ready(function(){
+    console.log( "%c Created by Fariz Darmaniar, Fathhana Euclidea \n[http://geomedia.id] - Geomedia Group","font-size:26px;","");
     jQuery('.slide-network').hover(function(){
         if ( jQuery( '.networkmedia' ).hasClass( 'muncul' ) ) {
             jQuery( '.networkmedia' ).removeClass( 'muncul' );
@@ -784,4 +785,4 @@ jQuery(function() {
             postsDiv.append( '<a href="'+link+'" target="_blank"><img class="poliklitik" src=' + excerpt +' /></a><br><div class="judulpoliklitik">'+title+'</div>' );
         });
     });
-    });
+});

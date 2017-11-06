@@ -8,8 +8,7 @@ Header style 1
             <?php td_api_top_bar_template::_helper_show_top_bar() ?>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="container networkmedia">
+    <div class="container-fluid networkmedia">
             <div class="row">
                 <div class="col-2 linklogo">
                 </div>
@@ -40,7 +39,6 @@ Header style 1
                 <div class="col-2 linklogo">
                 </div>
             </div>
-        </div>
     </div>
 
     <div class="td-banner-wrap-full td-logo-wrap-full td-container-wrap <?php echo td_util::get_option('td_full_header'); ?>">

@@ -11,6 +11,7 @@ $offset = ($paged - 1) * $number;
 
 $args = array(
     'orderby' => 'name',
+    'role' => 'columnist',
     'order' => 'ASC',
 );
 $users = get_users($args);
