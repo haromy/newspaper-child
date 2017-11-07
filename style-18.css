@@ -27265,6 +27265,11 @@ border-top:2px solid #6a7d8e;
   width:100%;
   background:white;
 }
+
+.fa-custom-scroll {
+  padding:5px;
+  margin:5px 0px;
+}
 .sticky-bottom {
   position:-webkit-sticky;
   position:sticky;
