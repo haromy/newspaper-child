@@ -755,7 +755,7 @@
 
 jQuery(document).ready(function(){
     console.log( "%c Created by Fariz Darmaniar, Fathhana Euclidea \n[http://geomedia.id] - Geomedia Group","font-size:26px;","");
-    jQuery('.slide-network').hover(function(){
+    jQuery('.slide-network').click(function(){
         if ( jQuery( '.networkmedia' ).hasClass( 'muncul' ) ) {
             jQuery( '.networkmedia' ).removeClass( 'muncul' );
         } else {
@@ -767,6 +767,21 @@ jQuery(document).ready(function(){
     });
     jQuery('.more-social-close').click(function(){
         jQuery(this).closest('.item-list-author').removeClass("active");
+    });
+    var offset = 220;
+    var durasi = 2000;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.fa-custom-scroll').fadeIn(durasi);
+        } else {
+            jQuery('.fa-custom-scroll').fadeOut(durasi);
+        }
+    });
+    
+    jQuery('.fa-custom-scroll').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, durasi);
+        return false;
     });
 });
 

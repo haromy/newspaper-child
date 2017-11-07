@@ -4,7 +4,10 @@
 ?>
   <div class="container-fluid footer-top">
     <footer class="container text-white">
-        <div class="row px-3 pt-1 td-scroll-up custom-scroll-top">
+        <div class="row">
+          <div class="col-1">
+              <i class="fa fa-chevron-up fa-lg fa-border fa-custom-scroll" aria-hidden="true"></i>
+          </div>
         </div>
         <div class="row sub-footer-menu">
             <div class="col">

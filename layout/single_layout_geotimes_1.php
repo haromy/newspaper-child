@@ -94,7 +94,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             <div class="row">
                                 <div class="col-lg-8 main-content" role="main">
                                     <div class="row">
-                                        <div class="col-xl-3 td-module-meta-info">
+                                        <div class="col-xl-3 td-module-meta-info social-sharing-top">
                                             <?php echo $td_mod_single->get_social_sharing_top_geotimes();?>
                                             <div class="row kiri">
                                                 <div class="col-6 col-lg-3 col-xl-6"><?php echo $td_mod_single->get_views();?></div>
@@ -166,7 +166,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="container">
-                                        <div class="col hidden-md-up">
+                                        <div class="col hidden-lg-up">
                                         <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
                                         <div class="postingpoliklitik"></div>
                                     </div>
@@ -188,6 +188,11 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             <div class="container-fluid footer-artikel">
                                 <div class="container">
                                     <?php echo $td_mod_single->related_footer_geotimes();?>
+                                </div>
+                            </div>
+                            <div class="container-fluid footer-sticky-bottom">
+                                <div class="sticky-bottom">
+                                <?php echo $td_mod_single->get_social_sharing_bottom_geotimes();?>
                                 </div>
                             </div>
                             <?php

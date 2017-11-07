@@ -54,3 +54,4 @@ additional task list
 - [x] update footer (add border, fix layout)
 - [x] add fontawesome
 - [x] fix share button + author box in single layout
+- [x] add sticky share buttom in mobile

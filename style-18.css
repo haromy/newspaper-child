@@ -27236,6 +27236,7 @@ background-color:#f5f5f5;
 background-color:#ebebeb;
 }
 .template-geotimes-1 .post-header .sub-meta .featured-image,
+.template-geotimes-1 .featured-image,
 .template-geotimes-1 .post-content {
 background-color:#fff;
 }
@@ -27258,6 +27259,18 @@ padding:10px 0px;
 }
 .template-geotimes-1 .mgid {
 border-top:2px solid #6a7d8e;
+}
+.template-geotimes-1 .sticky-bottom {
+  display:none;
+  width:100%;
+  background:white;
+}
+.sticky-bottom {
+  position:-webkit-sticky;
+  position:sticky;
+  bottom:0;
+  z-index:1030;
+  position:fixed;
 }
 
 .single_layout_geotimes_1 .td-post-sharing {
@@ -27917,7 +27930,7 @@ color:#fff;
 }
 
 }
-@media (max-width:450px) {
+@media screen and (max-width:450px) {
 .td_block_70s .single .td_module_mx1_70s .td-module-meta-info {
     height:45%;
 }
@@ -27932,7 +27945,10 @@ color:#fff;
 }
 
 /* mobile version */
-@media (max-width:450px) {
+@media screen and (max-width:450px) {
+  .template-geotimes-1 .sticky-bottom {
+    display:block;
+  }
 .kolommobile {
   padding:5px;
 }
@@ -28010,6 +28026,11 @@ color:#fff;
 /* desktop setting */
 
 @media screen and (min-width:1024px) {
+
+    .post-content .social-sharing-top .td-post-sharing .fa-24 {
+    font-size:16px;
+    min-width:30px;
+}
 
 .td_block_related_posts_geotimes .td-block-title a {
   width:100%;
