@@ -47,7 +47,7 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                         </div>
                     </div>
                 </div>
-                <!-- subtitle + featured image -->
+                <!-- subtitle -->
                 <div class="container-fluid sub-meta">
                     <div class="row subtitle">
                         <div class="container">
@@ -61,7 +61,9 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             </div>
                         </div>
                     </div>
-                    <div class="container featured-image">
+                </div>
+                <!-- featured image -->
+                <div class="container featured-image">
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="td-post-content">
@@ -80,7 +82,6 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
 
             <div class="container post-content">
@@ -114,18 +115,18 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <?php echo $td_mod_single->get_social_sharing_top_geotimes();?>
+                            <div class="row social-sharing-bottom">
+                                <div class="col-lg-8 col-xl-6 offset-xl-2 border">
+                                    <?php echo $td_mod_single->get_social_sharing_bottom_geotimes();?>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-8">
+                                <div class="col-lg-8 col-xl-6 offset-xl-2">
                                     <?php echo $td_mod_single->get_next_prev_posts();?>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-8">
+                            <div class="row box-author">
+                                <div class="col-lg-8 col-xl-6 offset-xl-2">
                                     <?php echo $td_mod_single->get_author_box();?>
                                 </div>
                             </div>

@@ -27223,7 +27223,10 @@ float:right;
 .template-geotimes-1 .td-module-meta-info .kiri:first-child {
   border-top:1px solid #8F8F8F;
   border-bottom: 1px solid #8f8f8f;
-  text-align: center;
+}
+
+.template-geotimes-1 .social-sharing-bottom .td-post-sharing {
+  border-top:1px solid #6a7d8e;
 }
 .template-geotimes-1 .post {
 background-color:#f5f5f5;
@@ -27259,7 +27262,6 @@ border-top:2px solid #6a7d8e;
 
 .single_layout_geotimes_1 .td-post-sharing {
 padding:10px 0px;
-text-align:center;
 }
 .single_layout_geotimes_1 .card .card-footer .td-post-views {
 float:right;

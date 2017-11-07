@@ -27,37 +27,29 @@
       <div class="row pb-5">
         <div class="col-md-12 col-lg-4">
         </div>
-        <div class="col-6 col-md-6 col-lg-2">
-          <ul class="pl-0">
+        <div class="col-6 col-md-3 col-lg-2 borderkiri">
               <?php
                 td_global::vc_set_custom_column_number(1);
                 dynamic_sidebar('Footer 1');
               ?>
-          </ul>
         </div>
-        <div class="col-6 col-md-6 col-lg-2">
-          <ul class="pl-0">
+        <div class="col-6 col-md-3 col-lg-2 borderkiri">
             <?php
               td_global::vc_set_custom_column_number(1);
               dynamic_sidebar('Footer 2');
             ?>
-          </ul>
         </div>
-        <div class="col-6 col-md-6 col-lg-2">
-          <ul class="pl-0">
+        <div class="col-6 col-md-3 col-lg-2 borderkiri">
             <?php
               td_global::vc_set_custom_column_number(1);
               dynamic_sidebar('Footer 3');
             ?>
-          </ul>
         </div>
-        <div class="col-6 col-md-6 col-lg-2">
-          <ul class="pl-0">
+        <div class="col-6 col-md-3 col-lg-2 borderkiri">
             <?php
               td_global::vc_set_custom_column_number(1);
               dynamic_sidebar('Footer 4');
             ?>
-          </ul>
         </div>
       </div>
       <div class="row custom-footer-bottom">

@@ -13,6 +13,7 @@ function theme_enqueue_styles() {
     //wp_enqueue_style('td-theme', get_template_directory_uri() . '/style.css', '', TD_THEME_VERSION, 'all' );
     wp_enqueue_style('td-theme', get_stylesheet_directory_uri() . '/style-18.css', '', TD_THEME_VERSION, 'all' );
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/css/grid.css', array('td-theme'), TD_THEME_VERSION . 'c', 'all' );
+    wp_enqueue_style('fontawesome', get_stylesheet_directory_uri() . '/css/fontawesome.css', array('td-theme'), TD_THEME_VERSION . 'c', 'all' );
     //wp_enqueue_style('td-theme-child', get_stylesheet_directory_uri() . '/style-clean-crisp.css', array('td-theme'), TD_THEME_VERSION . 'c', 'all' );
 }
 
