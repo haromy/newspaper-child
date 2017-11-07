@@ -27267,7 +27267,7 @@ border-top:2px solid #6a7d8e;
 }
 
 .fa-custom-scroll {
-  padding:5px;
+  padding:5px !important;
   margin:5px 0px;
 }
 .sticky-bottom {
