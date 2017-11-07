@@ -52,10 +52,10 @@ class td_block_70s extends td_block {
                     $buffy .='<div class="row">';
 				}
 				if ($td_post_count == 0) {
-					$buffy .='<div class="col-12">';
+					$buffy .='<div class="col-12 single">';
 				}
 				if ($td_post_count >= 1) {
-					$buffy .='<div class="col-6 col-xl-4">';
+					$buffy .='<div class="col-6 col-xl-4 triple">';
                 }
                 if ($td_post_count == 0) {
 					$buffy .= $td_module_card->render('munculgambar');

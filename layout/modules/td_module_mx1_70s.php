@@ -194,7 +194,7 @@ class td_module_mx1_70s extends td_module {
                 echo $this->get_image_geotimes('td_324x160');
             }
             else {
-                echo $this->get_image_geotimes('td_324x160');
+                echo $this->get_image_geotimes('td_218x150');
             }
             ?>
             <div class="td-module-meta-info">

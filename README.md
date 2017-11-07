@@ -43,3 +43,8 @@ additional task list
 - [x] add promoted row in single layout (01/11/2017)
 - [x] add fetch wp api from another website in single layout (01/11/2017)
 - [x] add style css 18 (contemporary and bold) - #1a1a1d - #4e4e50 - #6f2232 - #950740 - #c3073f (01/11/2017)
+
+(06/11/2017)
+- [x] fix headline
+- [x] card homepage
+- [x] fix single page

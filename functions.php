@@ -23,7 +23,9 @@ add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
 require_once('visual_composer.php');
 
-add_filter('manage_posts_columns', 'posts_column_views');
+
+// remove
+//add_filter('manage_posts_columns', 'posts_column_views');
 add_action('manage_posts_custom_column', 'posts_custom_column_views',5,2);
 function posts_column_views($defaults){
     $defaults['post_views'] = __('Views');

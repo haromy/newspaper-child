@@ -245,7 +245,7 @@ class td_module_card extends td_module {
                 <?php
                     
                     if ($argumen == 'show') {
-                        echo $this->get_image_geotimes('td_324x160');
+                        echo $this->get_image_geotimes('td_218x150');
                     }
                 ?>
             </div>
