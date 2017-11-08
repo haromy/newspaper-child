@@ -581,8 +581,19 @@ class geotimes_custom {
         function list_authors_excerpt ( $content, $limit = 20, $more = '...' ){                      
             return $data = wp_trim_words( strip_tags( $content ), $limit, $more );
         }
-        
-        
+
+            // single template meramuda - 1
+            td_api_single_template::add('single_layout_meramuda',
+            array(
+                'file' => $this->plugin_path . '/layout/single_layout_meramuda.php',
+                'text' => 'single_layout_meramuda',
+                //'img' => $this->plugin_url . '/images/panel/single_templates/single_template_77.png',
+                'show_featured_image_on_all_pages' => true,
+                'bg_box_layout_config' => 'auto',
+                'bg_use_featured_image_as_background' => false,
+                'bg_disable_background' => false
+            )
+        );
     }
 }
 new geotimes_custom();
