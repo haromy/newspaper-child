@@ -4,6 +4,87 @@
  * Class td_module_single
  */
 
+
+class td_social_icons1 {
+    static $td_social_icons_array = array(
+        'behance' => 'Behance',
+        'blogger' => 'Blogger',
+        'delicious' => 'Delicious',
+        'deviantart' => 'Deviantart',
+        'digg' => 'Digg',
+        'dribbble' => 'Dribbble',
+        'evernote' => 'Evernote',
+        'facebook' => 'Facebook',
+        'flickr' => 'Flickr',
+        'forrst' => 'Forrst',
+        'googleplus' => 'Google+',
+        'grooveshark' => 'Grooveshark',
+        'instagram' => 'Instagram',
+        'lastfm' => 'Lastfm',
+        'linkedin' => 'Linkedin',
+        'mail-1' => 'Mail',
+        'myspace' => 'Myspace',
+        'path' => 'Path',
+        'paypal' => 'Paypal',
+        'pinterest' => 'Pinterest',
+        'reddit' => 'Reddit',
+        'rss' => 'RSS',
+        'share' => 'Share',
+        'skype' => 'Skype',
+        'soundcloud' => 'Soundcloud',
+        'spotify' => 'Spotify',
+        'stackoverflow' => 'Stackoverflow',
+        'steam' => 'Steam',
+        'stumbleupon' => 'StumbleUpon',
+        'tumblr' => 'Tumblr',
+        'twitter' => 'Twitter',
+        'vimeo' => 'Vimeo',
+        'vk' => 'VKontakte',
+        'windows' => 'Windows',
+        'wordpress' => 'WordPress',
+        'yahoo' => 'Yahoo',
+        'youtube' => 'Youtube'
+    );
+
+
+
+
+    static function get_icon($url, $icon_id, $open_in_new_window = false, $show_icon_id = false) {
+        if ($open_in_new_window !== false) {
+            $td_a_target = ' target="_blank"';
+        } else {
+            $td_a_target = '';
+        }
+
+		// append mailto: the email only if we have an @ and we don't have the mailto: already in place
+	    if (
+		    $icon_id == 'mail-1'
+		    and strpos($url, '@') !== false
+		        and strpos(strtolower($url), 'mailto:') === false
+	    ) {
+		    $url = 'mailto:' . $url;
+	    }
+
+        //if the $show_icon_id parameter is set to true also add the social network name
+        if($show_icon_id === true){
+            return '
+            <span class="td-social-icon-wrap">
+                <a' . $td_a_target . ' href="' . $url . '" title="' . self::$td_social_icons_array[$icon_id] . '">
+                    <i class="td-icon-font td-icon-' . $icon_id . '"></i>
+                    <span class="td-social-name">' . self::$td_social_icons_array[$icon_id] . '</span>
+                </a>
+            </span>';
+        }
+
+        return '<a' . $td_a_target . ' href="' . $url . '" title="' . self::$td_social_icons_array[$icon_id] . '">
+                <i class="fa fa-' . $icon_id . ' fa-square-custom"></i>
+            </a>';
+    }
+
+}
+
+
+
 class td_module_single_geotimes_1 extends td_module_single_base {
 
     function get_author_box($author_id = '') {
@@ -38,7 +119,7 @@ class td_module_single_geotimes_1 extends td_module_single_base {
             $buffy .=  get_the_author_meta('description', $author_id);
             $buffy .= '</div>';
             $buffy .= '<div class="td-author-social">';
-            foreach (td_social_icons::$td_social_icons_array as $td_social_id => $td_social_name) {
+            foreach (td_social_icons1::$td_social_icons_array as $td_social_id => $td_social_name) {
                 //echo get_the_author_meta($td_social_id) . '<br>';
                 $authorMeta = get_the_author_meta($td_social_id);
                 if (!empty($authorMeta)) {
@@ -50,7 +131,7 @@ class td_module_single_geotimes_1 extends td_module_single_base {
                             $authorMeta = 'http://twitter.com/' . $authorMeta;
                         }
                     }
-                    $buffy .= td_social_icons::get_icon($authorMeta, $td_social_id, true);
+                    $buffy .= td_social_icons1::get_icon($authorMeta, $td_social_id, true);
                 }
             }
             $buffy .= '</div>';
@@ -101,7 +182,7 @@ class td_module_single_geotimes_1 extends td_module_single_base {
                 $buffy .= '
 				<div class="td-default-sharing">
 		            <a class="td-social-sharing-buttons td-social-facebook" href="https://www.facebook.com/sharer.php?u=' . urlencode( esc_url( get_permalink() ) ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="td-icon-facebook"></i><div class="td-social-but-text">' . __td('Share on Facebook', TD_THEME_NAME) . '</div></a>
-		            <a class="td-social-sharing-buttons td-social-twitter" href="https://twitter.com/intent/tweet?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '&url=' . urlencode( esc_url( get_permalink() ) ) . '&via=' . urlencode( $twitter_user ? $twitter_user : get_bloginfo( 'name' ) ) . '"  ><i class="td-icon-twitter"></i><div class="td-social-but-text">' . __td('Tweet on Twitter', TD_THEME_NAME) . '</div></a>
+		            <a class="td-social-sharing-buttons td-social-twitter" href="https://twitter.com/intent/tweet?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '&url=' . urlencode( esc_url( get_permalink() ) ) . '&via=' . urlencode( $twitter_user ? $twitter_user : get_bloginfo( 'name' ) ) . '"  onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="td-icon-twitter"></i><div class="td-social-but-text">' . __td('Tweet on Twitter', TD_THEME_NAME) . '</div></a>
 		            <a class="td-social-sharing-buttons td-social-google" href="https://plus.google.com/share?url=' . esc_url( get_permalink() ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="td-icon-googleplus"></i></a>
 		            <a class="td-social-sharing-buttons td-social-pinterest" href="https://pinterest.com/pin/create/button/?url=' . esc_url( get_permalink() ) . '&amp;media=' . ( ! empty( $image[0] ) ? $image[0] : '' ) . '&description=' . $td_pinterest_share_description . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="td-icon-pinterest"></i></a>
                     <a class="td-social-sharing-buttons td-social-whatsapp" href="whatsapp://send?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '%20-%20' . urlencode( esc_url( get_permalink() ) ) . '" ><i class="td-icon-whatsapp"></i></a
@@ -348,7 +429,7 @@ class td_module_single_geotimes_1 extends td_module_single_base {
                     <a class="td-button-social social-facebook" href="https://www.facebook.com/sharer.php?u=' . urlencode( esc_url( get_permalink() ) ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-facebook fa-24 fa-border" aria-hidden="true"></i></a>
                     <a class="td-button-social social-twitter" href="https://twitter.com/intent/tweet?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '&url=' . urlencode( esc_url( get_permalink() ) ) . '&via=' . urlencode( $twitter_user ? $twitter_user : get_bloginfo( 'name' ) ) . '"  ><i class="fa fa-twitter fa-24 fa-border" aria-hidden="true"></i></a>
                     <a class="td-button-social social-google" href="https://plus.google.com/share?url=' . esc_url( get_permalink() ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-google-plus fa-24 fa-border" aria-hidden="true"></i></a>
-                    <a class="td-button-social social-whatsapp" href="whatsapp://send?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '%20-%20' . urlencode( esc_url( get_permalink() ) ) . '" ><i class="fa fa-whatsapp fa-24 fa-border" aria-hidden="true"></i></a>
+                    <a class="td-button-social social-whatsapp" href="whatsapp://send?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '%20-%20' . urlencode( esc_url( get_permalink() ) ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-whatsapp fa-24 fa-border" aria-hidden="true"></i></a>
                     <a class="td-button-social social-email" href="" ><i class="fa fa-envelope-o fa-24 fa-border" aria-hidden="true"></i></a>
 	            </div>';
 	        }
@@ -415,9 +496,9 @@ class td_module_single_geotimes_1 extends td_module_single_base {
                 $buffy .= '
                 <div class="td-default-sharing">
                     <a class="td-button-social social-facebook" href="https://www.facebook.com/sharer.php?u=' . urlencode( esc_url( get_permalink() ) ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-facebook fa-24 fa-border" aria-hidden="true"></i></a>
-                    <a class="td-button-social social-twitter" href="https://twitter.com/intent/tweet?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '&url=' . urlencode( esc_url( get_permalink() ) ) . '&via=' . urlencode( $twitter_user ? $twitter_user : get_bloginfo( 'name' ) ) . '"  ><i class="fa fa-twitter fa-24 fa-border" aria-hidden="true"></i></a>
+                    <a class="td-button-social social-twitter" href="https://twitter.com/intent/tweet?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '&url=' . urlencode( esc_url( get_permalink() ) ) . '&via=' . urlencode( $twitter_user ? $twitter_user : get_bloginfo( 'name' ) ) . '"  onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-twitter fa-24 fa-border" aria-hidden="true"></i></a>
                     <a class="td-button-social social-google" href="https://plus.google.com/share?url=' . esc_url( get_permalink() ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-google-plus fa-24 fa-border" aria-hidden="true"></i></a>
-                    <a class="td-button-social social-whatsapp" href="whatsapp://send?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '%20-%20' . urlencode( esc_url( get_permalink() ) ) . '" ><i class="fa fa-whatsapp fa-24 fa-border" aria-hidden="true"></i></a>
+                    <a class="td-button-social social-whatsapp" href="whatsapp://send?text=' . htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') . '%20-%20' . urlencode( esc_url( get_permalink() ) ) . '" onclick="window.open(this.href, \'mywin\',\'left=50,top=50,width=600,height=350,toolbar=0\'); return false;"><i class="fa fa-whatsapp fa-24 fa-border" aria-hidden="true"></i></a>
                     <a class="td-button-social social-email" href="mailto:?subject='. htmlspecialchars(urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8') .'&amp;body='. urlencode( esc_url( get_permalink() ) ) .'"><i class="fa fa-envelope-o fa-24 fa-border" aria-hidden="true"></i></a>
 	            </div>';
 	        }
@@ -507,8 +588,7 @@ class td_module_single_geotimes_1 extends td_module_single_base {
             'custom_title'=>'',
             'limit' => $tds_jumlah_post,
             'td_ajax_filter_ids'=> $tds_kategori_related, 
-            'td_ajax_filter_type' => 'td_category_ids_filter',
-            'td_filter_default_txt'=>''
+            'td_ajax_filter_type' => 'td_category_ids_filter'
             //'td_column_number' => $td_column_number
         );
         return td_global_blocks::get_instance('td_block_related_footer_geotimes')->render($td_block_args);

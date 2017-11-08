@@ -2342,3 +2342,9 @@
     min-width:45px;
     text-align:center;
   }
+
+  .fa-square-custom {
+    padding:5px 10px;
+    border:0.08em solid #697b8c;
+    border-radius:5px;
+}

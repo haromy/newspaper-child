@@ -2,7 +2,7 @@
 
 if(td_util::get_option('td_social_networks_show') == 'show') { ?>
 <a class="slide-network">OUR NETWORK</a>
-<div class="td-header-sp-top-widget">
+<div class="td-header-sp-top-widget hidden-md-down">
     <?php
 
         //get the socials that are set by user

@@ -55,3 +55,8 @@ additional task list
 - [x] add fontawesome
 - [x] fix share button + author box in single layout
 - [x] add sticky share buttom in mobile
+
+08/11/2017
+- [x] bugfix mobile share button
+- [x] bugfix top menu
+- [x] bugfix single layout geotimes

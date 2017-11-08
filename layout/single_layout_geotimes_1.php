@@ -167,9 +167,9 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                 <div class="row">
                                     <div class="container">
                                         <div class="col hidden-lg-up">
-                                        <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
-                                        <div class="postingpoliklitik"></div>
-                                    </div>
+                                            <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
+                                            <div class="postingpoliklitik"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
