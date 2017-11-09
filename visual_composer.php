@@ -1,5 +1,7 @@
 <?php
 
+locate_template('includes/wp_booster/td_block_widget.php', true);
+
 class geotimes_custom {
     var $plugin_url = '';
     var $plugin_path = '';

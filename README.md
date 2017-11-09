@@ -60,3 +60,7 @@ additional task list
 - [x] bugfix mobile share button
 - [x] bugfix top menu
 - [x] bugfix single layout geotimes
+- [x] add single layout meramuda
+
+09/11/2017
+- [x] Add sidebar widget
