@@ -65,6 +65,9 @@ additional task list
 09/11/2017
 - [x] Add sidebar widget
 
+10/11/2017
+- [x] fix mobile menu
+
 
 
 
