@@ -2546,6 +2546,7 @@ ul.sf-js-enabled > li > a > i.td-icon-menu-down:before {
 .td-mobile-container {
   padding-bottom: 20px;
   position: relative;
+  height:800px;
 }
 .td-mobile-content {
   /* first submenu */
@@ -2738,7 +2739,7 @@ ul.sf-js-enabled > li > a > i.td-icon-menu-down:before {
   -o-transition: all 0.5s ease 0.5s;
   transition: all 0.5s ease 0.5s;
   position: absolute;
-  top: -400px;
+  top: 0;
   width: 100%;
 }
 #td-mobile-nav .td-login-animation .td-login-inputs {
@@ -2885,7 +2886,7 @@ ul.sf-js-enabled > li > a > i.td-icon-menu-down:before {
     Register section
 */
 #td-mobile-nav .td-register-section {
-  position: relative;
+  position: absolute;
   top: 0;
   color: #fff;
   width: 100%;
