@@ -68,11 +68,11 @@ additional task list
 
 
 
-require :
-edit file di newspaper core
-/Newspaper/includes/wp_booster/wp-admin/panel/views/td_panel_post_settings.php
+# require :
+edit file di newspaper core <br />
+/Newspaper/includes/wp_booster/wp-admin/panel/views/td_panel_post_settings.php<br />
 masukkan code dibawah di line : 407
-`
+
 
     <div class="td-box-section-separator"></div>
     <div class="td-box-row">
@@ -132,4 +132,3 @@ masukkan code dibawah di line : 407
             ?>
         </div>
     </div>
-`
