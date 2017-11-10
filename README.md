@@ -64,3 +64,72 @@ additional task list
 
 09/11/2017
 - [x] Add sidebar widget
+
+
+
+
+require :
+edit file di newspaper core
+/Newspaper/includes/wp_booster/wp-admin/panel/views/td_panel_post_settings.php
+masukkan code dibawah di line : 407
+`
+
+    <div class="td-box-section-separator"></div>
+    <div class="td-box-row">
+        <div class="td-box-description">
+            <span class="td-box-title">Kategori yang dimunculkan setelah artikel</span>
+            <p>Masukkan ID dari kategori yang akan dimunculkan</p>
+        </div>
+        <div class="td-box-control-full">
+            <?php
+            echo td_panel_generator::input(array(
+                'ds' => 'td_option',
+                'option_id' => 'tds_kategori_after_footer'
+            ));
+            ?>
+        </div>
+    </div>
+    <div class="td-box-row">
+        <div class="td-box-description">
+            <span class="td-box-title">Jumlah Post</span>
+            <p>Masukkan jumlah post yang akan dimunculkan<br></p>
+        </div>
+        <div class="td-box-control-full">
+            <?php
+            echo td_panel_generator::input(array(
+                'ds' => 'td_option',
+                'option_id' => 'tds_kategori_after_footer_limit'
+            ));
+            ?>
+        </div>
+    </div>
+
+    <div class="td-box-row">
+        <div class="td-box-description">
+            <span class="td-box-title">Related Kategori Footer</span>
+            <p>Masukkan ID dari setiap kategori yang akan dimunculkan<br> dipisahkan dengan tanda baca ','</p>
+        </div>
+        <div class="td-box-control-full">
+            <?php
+            echo td_panel_generator::input(array(
+                'ds' => 'td_option',
+                'option_id' => 'tds_kategori_related'
+            ));
+            ?>
+        </div>
+    </div>
+    <div class="td-box-row">
+        <div class="td-box-description">
+            <span class="td-box-title">Jumlah Post</span>
+            <p>Masukkan jumlah post yang akan dimunculkan<br></p>
+        </div>
+        <div class="td-box-control-full">
+            <?php
+            echo td_panel_generator::input(array(
+                'ds' => 'td_option',
+                'option_id' => 'tds_jumlah_post'
+            ));
+            ?>
+        </div>
+    </div>
+`
