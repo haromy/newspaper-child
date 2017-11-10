@@ -154,16 +154,6 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                     </div>
                                 </div>
                             </div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="container">
-                                        <div class="col hidden-lg-up">
-                                            <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
-                                            <div class="postingpoliklitik"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="container-fluid related-artikel">
                                 <div class="row">
                                     <div class="container">

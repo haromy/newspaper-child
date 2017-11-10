@@ -67,7 +67,8 @@ additional task list
 
 10/11/2017
 - [x] fix mobile menu
-
+- [x] add ligalaga single layout
+- [x] use adbox custom 5 for mgid after comment
 
 
 
