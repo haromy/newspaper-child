@@ -27184,9 +27184,6 @@ url :
     padding-left:10px;
     border-left: 2px solid #1b1464;
   }
-  .template-geotimes-1 .kategory li {
-  display: inline-block;
-  }
   .template-geotimes-1 .entry-category a {
     color:#000000;
   }
@@ -27255,7 +27252,19 @@ url :
     width:100%;
     background:white;
   }
-  
+
+@media screen and (max-width:450px) {
+  .template-geotimes-1 .post-header .entry-title {
+    font-size:24px;
+    line-height:30px;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .template-geotimes-1 .kategory li {
+    display: inline-block;
+    }
+}
   .featured-image .adsense {
     padding:10px 0px;
 }
