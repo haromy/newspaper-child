@@ -76,9 +76,12 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                     ?>
                                 </div>
                             </div>
-                            <div class="col-lg-4 hidden-md-down">
-                                <div class="judulartikelpoliklitik">KARTUN HARI INI</div>
-                                <div class="postingpoliklitik"></div>
+                            <div class="col-lg-4 hidden-md-down adsense">
+                                <?php
+                                $tds_sidebar_title = td_util::get_option('tds_sidebar_title');
+                                // ad spot
+                                echo td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'sidebar', 'spot_title' => $tds_sidebar_title));
+                                ?>
                             </div>
                         </div>
                     </div>

@@ -17716,7 +17716,7 @@ url :
   .td-a-rec-id-custom_ad_3 > div,
   .td-a-rec-id-custom_ad_4 > div,
   .td-a-rec-id-custom_ad_5 > div {
-    margin-bottom: 44px;
+    margin-bottom: 10px;
   }
   .td-a-rec-id-custom_ad_1 .td-block-title-wrap,
   .td-a-rec-id-custom_ad_2 .td-block-title-wrap,
@@ -27255,6 +27255,10 @@ url :
     width:100%;
     background:white;
   }
+  
+  .featured-image .adsense {
+    padding:10px 0px;
+}
   
   .fa-custom-scroll {
     padding:5px !important;

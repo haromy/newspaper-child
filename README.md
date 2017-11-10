@@ -69,6 +69,7 @@ additional task list
 - [x] fix mobile menu
 - [x] add ligalaga single layout
 - [x] use adbox custom 5 for mgid after comment
+- [x] use adbox sidebar in single layout ligalaga
 
 
 
