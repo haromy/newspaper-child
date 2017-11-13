@@ -27260,6 +27260,9 @@ url :
   .template-geotimes-1 .td_block_wrap .td-load-more-wrap {
       float:right;
   }
+  .card-footer.purple a {
+    color:#ffffff !important;
+}
   
   .fa-custom-scroll {
     padding:5px !important;
@@ -27997,6 +28000,19 @@ url :
   .td_block_sidebar .custom-block-title {
     font-size:32px;
   }
+  .template-geotimes-1 .kategory {
+    display:none;
+}
+.template-geotimes-1 .post-header .entry-title {
+    font-size:24px;
+    line-height:28px;
+}
+.related-artikel .kolommobile,
+.opini-artikel .kolommobile,
+.footer-artikel .kolommobile {
+    padding-left:5px;
+    padding-right:5px;
+}
   }
   
   /* 450px to 768px setting */

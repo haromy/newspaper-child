@@ -158,10 +158,8 @@ $td_mod_single = new td_module_single_geotimes_1($post);
                                 </div>
                             </div>
                             <div class="container-fluid related-artikel">
-                                <div class="row">
-                                    <div class="container">
-                                        <?php echo $td_mod_single->related_posts_geotimes();?>
-                                    </div>
+                                <div class="container">
+                                    <?php echo $td_mod_single->related_posts_geotimes();?>
                                 </div>
                             </div>
                             <div class="container-fluid opini-artikel">
