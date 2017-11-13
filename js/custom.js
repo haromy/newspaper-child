@@ -786,7 +786,7 @@ jQuery(document).ready(function(){
 
     // sticky on scroll
 
-    var top = jQuery('.sticky-bottom').offset().top;
+    //var top = jQuery('.sticky-bottom').offset().top;
     if (jQuery(window).width() < 450) {
         jQuery(window).scroll(function (event) {
             var y = jQuery(this).scrollTop();
@@ -801,5 +801,3 @@ jQuery(document).ready(function(){
 
      }
 });
-
-
