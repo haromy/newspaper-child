@@ -73,6 +73,10 @@ additional task list
 - [x] add style-meramuda-5.css
 - [x] remove css style-meramuda 1-4
 
+13/11/2017
+- [x] add js for sticky on scroll depth (200px) in single post
+- [x] bugfix layout sticky bottom share bar.
+
 
 
 # require :
@@ -139,3 +143,8 @@ masukkan code dibawah di line : 407
             ?>
         </div>
     </div>
+
+<br />
+# required plugin
+- WP subtitle
+- FB comments
