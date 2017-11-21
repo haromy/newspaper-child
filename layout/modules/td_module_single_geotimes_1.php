@@ -87,6 +87,180 @@ class td_social_icons1 {
 
 class td_module_single_geotimes_1 extends td_module_single_base {
 
+    function get_content() {
+        
+                /*  ----------------------------------------------------------------------------
+                    Prepare the content
+                */
+                $content = get_the_content(__td('Continue', TD_THEME_NAME));
+                $content = apply_filters('the_content', $content);
+                $content = str_replace(']]>', ']]&gt;', $content);
+        
+        
+        
+                /** ----------------------------------------------------------------------------
+                 * Smart list support. class_exists and new object WORK VIA AUTOLOAD
+                 * @see td_autoload_classes::loading_classes
+                 */
+                //$td_smart_list = get_post_meta($this->post->ID, 'td_smart_list', true);
+                $td_post_theme_settings = td_util::get_post_meta_array($this->post->ID, 'td_post_theme_settings');
+                if (!empty($td_post_theme_settings['smart_list_template'])) {
+        
+                    $td_smart_list_class = $td_post_theme_settings['smart_list_template'];
+                    if (class_exists($td_smart_list_class)) {
+                        /**
+                         * @var $td_smart_list_obj td_smart_list
+                         */
+                        $td_smart_list_obj = new $td_smart_list_class();  // make the class from string * magic :)
+        
+                        // prepare the settings for the smart list
+                        $smart_list_settings = array(
+                            'post_content' => $content,
+                            'counting_order_asc' => false,
+                            'td_smart_list_h' => 'h3',
+                            'extract_first_image' => td_api_smart_list::get_key($td_smart_list_class, 'extract_first_image')
+                        );
+        
+                        if (!empty($td_post_theme_settings['td_smart_list_order'])) {
+                            $smart_list_settings['counting_order_asc'] = true;
+                        }
+        
+                        if (!empty($td_post_theme_settings['td_smart_list_h'])) {
+                            $smart_list_settings['td_smart_list_h'] = $td_post_theme_settings['td_smart_list_h'];
+                        }
+                        return $td_smart_list_obj->render_from_post_content($smart_list_settings);
+                    } else {
+                        // there was an error?
+                        td_util::error(__FILE__, 'Missing smart list: ' . $td_smart_list_class . '. Did you disabled a tagDiv plugin?');
+                    }
+                }
+                /*  ----------------------------------------------------------------------------
+                    end smart list - if we have a list, the function returns above
+                 */
+        
+        
+        
+        
+                /*  ----------------------------------------------------------------------------
+                    ad support on content
+                */
+        
+                //read the current ad settings
+                $tds_inline_ad_paragraph = td_util::get_option('tds_inline_ad_paragraph');
+                $tds_inline_ad_align = td_util::get_option('tds_inline_ad_align');
+        
+                //ads titles
+                $tds_inline_ad_title = td_util::get_option('tds_content_inline_title');
+                $tds_bottom_ad_title = td_util::get_option('tds_content_bottom_title');
+                $tds_top_ad_title = td_util::get_option('tds_content_top_title');
+        
+                //show the inline ad at the last paragraph ( replacing the bottom ad ) whenever there are not as many paragraphs mentioned in After Paragraph field
+                // ..and the article bottom ad is not active
+                $show_inline_ad_at_bottom = false;
+        
+                //add the inline ad
+                if (td_util::is_ad_spot_enabled('content_inline') and is_single()) {
+                    if (empty($tds_inline_ad_paragraph)) {
+                        $tds_inline_ad_paragraph = 0;
+                    }
+        
+                    $content_buffer = ''; // we replace the content with this buffer at the end
+                    $content_parts = preg_split('/(<blockquote.*\/blockquote>)/Us', $content, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+        
+                    $p_open_tag_count = 0; // count how many <p> tags we have added to the buffer
+                    foreach ($content_parts as $content_part_index => $content_part_value) {
+                        if (!empty($content_part_value)) {
+        
+                            //skip <blockquote> parts - look for <p> in the other parts
+                            if (preg_match('/(<blockquote.*>)/U', $content_part_value) !== 1) {
+                                $section_parts = preg_split('/(<p.*>)/U', $content_part_value, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+        
+                                foreach ($section_parts as $section_part_index => $section_part_value) {
+                                    if (!empty($section_part_value)) {
+                                        // Show the ad ONLY IF THE CURRENT PART IS A <p> opening tag and before the <p> -> so we will have <p>content</p>  ~ad~ <p>content</p>
+                                        // and prevent cases like <p> ~ad~ content</p>
+                                        if (preg_match('/(<p.*>)/U', $section_part_value) === 1) {
+                                            if ($tds_inline_ad_paragraph == $p_open_tag_count) {
+                                                $show_inline_ad_at_bottom = true;
+                                                switch ($tds_inline_ad_align) {
+                                                    case 'left':
+                                                        $content_buffer .= td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_inline', 'align' => 'left', 'spot_title' => $tds_inline_ad_title ));
+                                                        break;
+        
+                                                    case 'right':
+                                                        $content_buffer .= td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_inline', 'align' => 'right', 'spot_title' => $tds_inline_ad_title));
+                                                        break;
+        
+                                                    default:
+                                                        $content_buffer .= td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_inline', 'spot_title' => $tds_inline_ad_title));
+                                                        break;
+                                                }
+                                            }
+                                            $p_open_tag_count ++;
+                                        }
+                                        //add section to buffer
+                                        $content_buffer .= $section_part_value;
+                                    }
+                                }
+        
+                            } else {
+                                //add <blockquote> to buffer
+                                $content_buffer .= $content_part_value;
+                            }
+                        }
+                    }
+                    $content = $content_buffer;
+                }
+        
+        
+                //add the top ad
+                if (td_util::is_ad_spot_enabled('content_top') && is_single()) {
+        
+                    //disable the top ad on post template 1, it breaks the layout, the top image and ad should float on the left side of the content
+                    if (!empty($td_post_theme_settings['td_post_template'])) {
+                        $td_default_site_post_template = $td_post_theme_settings['td_post_template'];
+        
+                    //if the post individual template is not set, check the global settings, if template 1 is set disable the top ad
+                    } else {
+                        $td_default_site_post_template = td_util::get_option('td_default_site_post_template');
+                    }
+        
+                    //default post template - is empty, check td_api_single_template::_helper_td_global_list_to_metaboxes()
+                    if (empty($td_default_site_post_template)) {
+                        $td_default_site_post_template = 'single_template';
+                    }
+        
+                    //check if ad is excluded from current post template
+                    if (td_api_single_template::get_key($td_default_site_post_template, 'exclude_ad_content_top') === false) {
+                        $content = td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_top', 'spot_title' => $tds_top_ad_title)) . $content;
+                    }
+                }
+        
+        
+                //add bottom ad
+                if (td_util::is_ad_spot_enabled('content_bottom') && is_single()) {
+                    $content = $content . td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_bottom', 'spot_title' => $tds_bottom_ad_title));
+                } else {
+                    if ( $show_inline_ad_at_bottom !== true ) {
+                        switch ($tds_inline_ad_align) {
+                            case 'left':
+                                $content = $content . td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_inline', 'align' => 'left', 'spot_title' => $tds_inline_ad_title ));
+                                break;
+        
+                            case 'right':
+                                $content = $content . td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_inline', 'align' => 'right', 'spot_title' => $tds_inline_ad_title));
+                                break;
+        
+                            default:
+                                $content = $content . td_global_blocks::get_instance('td_block_ad_box')->render(array('spot_id' => 'content_inline', 'spot_title' => $tds_inline_ad_title));
+                                break;
+                        }
+                    }
+                }
+        
+                return $content;
+            }
+
     function get_author_box($author_id = '') {
         if (!$this->is_single) {
             return '';

@@ -38,3 +38,4 @@ function posts_custom_column_views($column_name, $id){
         echo wpp_get_views( get_the_ID() );
     }
 }
+

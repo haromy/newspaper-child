@@ -28112,3 +28112,31 @@ margin:10px 0px;
 }
 
 }
+
+//css inline related post
+.inline-related-posts {
+  width:33.3%;
+  float:left;
+  margin:10px;
+}
+.inline-related-posts .card {
+  border:none;
+}
+.inline-related-posts .card .card-img-top {
+  margin-bottom:0px !important;
+}
+.inline-related-posts .card .card-title {
+  margin:5px;
+  font-size:14px;
+  line-height:16px;
+}
+.inline-related-posts .card .card-footer .readmore {
+  font-family:dinprobold;
+  margin-left:10px;
+}
+@media screen and (min-width:1100px) {
+  .inline-related-posts {
+      position:absolute;
+      left:-200px;
+  }    
+}

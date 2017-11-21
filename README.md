@@ -77,6 +77,8 @@ additional task list
 - [x] add js for sticky on scroll depth (200px) in single post
 - [x] bugfix layout sticky bottom share bar.
 
+21/11/2017
+- [x] add inline related article inside post.
 
 
 # require :

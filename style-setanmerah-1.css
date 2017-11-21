@@ -1330,7 +1330,7 @@ url :
     Style 1
   ----------------------------------------------------------------------  */
   .td-header-style-1 .td-header-top-menu-full {
-    background-color: #3C434A;
+    background-color: #aa0800;
   }
   .td-header-style-1 .td-header-sp-logo {
     width: 350px;
@@ -1338,7 +1338,7 @@ url :
     height: 90px;
   }
   .td-header-style-1 .td-logo-wrap-full {
-    background-color:#3C434A;
+    background-color:#dc0800;
   }
   @media (min-width: 1019px) and (max-width: 1140px) {
     .td-header-style-1 .td-header-sp-logo {
@@ -1500,7 +1500,7 @@ url :
     padding: 0 14px;
     line-height: 48px;
     font-size: 16px;
-    color: #ffffff;
+    color: #ffca00;
     font-weight: 700;
     text-transform: uppercase;
     -webkit-backface-visibility: hidden;
@@ -27137,7 +27137,7 @@ url :
     for custom CSS.
   */
   .td-header-wrap .td-header-menu-wrap-full, .sf-menu > .current-menu-ancestor > a, .sf-menu > .current-category-ancestor > a, .td-header-menu-wrap.td-affix, .td-header-style-3 .td-header-main-menu, .td-header-style-3 .td-affix .td-header-main-menu, .td-header-style-4 .td-header-main-menu, .td-header-style-4 .td-affix .td-header-main-menu, .td-header-style-8 .td-header-menu-wrap.td-affix, .td-header-style-8 .td-header-top-menu-full {
-    background-color: #DA020E;
+    background-color: #000000;
   }
   .td-header-wrap .td-header-menu-wrap-full .td-container {
     background-color:transparent;
@@ -27442,7 +27442,7 @@ url :
   .networkmedia {
   display: none;
   padding:10px 0px;
-  background-color:#DA020E;
+  background-color:#ebebeb;
   }
   .networkmedia .linklogo {
   margin:auto;
@@ -27700,7 +27700,7 @@ url :
   .sub-footer-menu a,
   .footer-geo-network a, 
   .custom-footer a {
-  color: #3d434a !important;
+  color: #000000 !important;
   }
   
   .custom-footer-bottom {
@@ -27851,7 +27851,7 @@ url :
   background-color: #cd023d;
   }
   .footer-bottom {
-  background-color: #3d434a;
+  background-color: #000000;
   }
   
   
@@ -27907,6 +27907,7 @@ url :
   height:30px;
   padding-top:3px;
   margin-top:2px;
+  margin-bottom:2px;
   }
   
   .td_block_70s .single .td_module_mx1_70s .td-module-thumb img {
@@ -28135,4 +28136,33 @@ url :
 
 .show {
     display:block !important;
+}
+
+
+/* css inline related post */
+.inline-related-posts {
+  width:33.3%;
+  float:left;
+  margin:10px;
+}
+.inline-related-posts .card {
+  border:none;
+}
+.inline-related-posts .card .card-img-top {
+  margin-bottom:0px !important;
+}
+.inline-related-posts .card .card-title {
+  margin:5px;
+  font-size:14px;
+  line-height:16px;
+}
+.inline-related-posts .card .card-footer .readmore {
+  font-family:dinprobold;
+  margin-left:10px;
+}
+@media screen and (min-width:1100px) {
+  .inline-related-posts {
+      position:absolute;
+      left:-200px;
+  }    
 }
