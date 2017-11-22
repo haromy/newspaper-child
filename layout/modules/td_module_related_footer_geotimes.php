@@ -63,17 +63,9 @@ class td_module_related_footer_geotimes extends td_module {
     function render($td_current_column) {
         ob_start();
         ?>
-        <div class="col-6 col-md-6 col-lg-3 kolommobile">
-            <div class="<?php echo $this->get_module_classes();?>  card">
-                <div class="card-block">
-                    <?php echo $this->get_title_related();?>
-                </div>
-                <div class="card-footer row">
-                    <div class="col-12">
-                        <?php echo $this->get_author_geotimes();?>
-                    </div>
-                </div>
-            </div>
+        <div class="row">
+            <div class="col-1 custom-post-count"><?php echo $td_current_column;?></div>
+            <div class="col"><?php echo $this->get_title_related();?></div>
         </div>
 
         <?php return ob_get_clean();

@@ -80,6 +80,10 @@ additional task list
 21/11/2017
 - [x] add inline related article inside post.
 
+22/11/2017
+- [x] change layout single post footer most read block
+- [x] bugfix layout geotimes
+
 
 # require :
 edit file di newspaper core <br />

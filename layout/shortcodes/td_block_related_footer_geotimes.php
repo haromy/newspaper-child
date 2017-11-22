@@ -30,7 +30,7 @@ class td_block_related_footer_geotimes extends td_block {
                 $buffy .= '<div class="col-lg-10 filter">'.$this->get_pull_down_filter().'</div>'; //get the sub category filter for this block
             $buffy .= '</div>';
             $buffy .= '<div id=' . $this->block_uid . ' class="td_block_inner row">';
-                $buffy .= $this->inner($this->td_query->posts); //inner content of the block
+                    $buffy .= $this->inner($this->td_query->posts); //inner content of the block
             $buffy .= '</div>';
             $buffy .= $this->get_block_pagination();
         $buffy .= '</div> <!-- ./block -->';
@@ -40,20 +40,23 @@ class td_block_related_footer_geotimes extends td_block {
     function inner($posts, $td_column_number = '') {
         $td_current_column = 1;
         $buffy = '';
-
+        $buffy .='<div class="col-lg-6 offset-lg-3">';
+        $buffy .= '<div class="row">';
         if (!empty($posts)) {
             foreach ($posts as $post) {
                 if ($td_current_column == 1 || $td_current_column == 6) {
-                    //$buffy .= '<div class="col-6 col-md-6 col-lg-3 kolommobile">';
+                    $buffy .= '<div class="col-6 kolommobile">';
                 }
                 $td_module_related_footer_geotimes = new td_module_related_footer_geotimes($post);
                 $buffy .= $td_module_related_footer_geotimes->render($td_current_column);
                 if ($td_current_column == 5 || $td_current_column == 10) {
-                    //$buffy .= '</div>';
+                    $buffy .= '</div>';
                 }
             $td_current_column++;
             }
         }
+        $buffy .= '</div>';
+        $buffy .= '</div>';
         return $buffy;
     }
 }
